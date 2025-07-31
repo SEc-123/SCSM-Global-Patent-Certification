@@ -11,7 +11,7 @@ All conceptual content is covered under active patent examination and may not be
 
 
 
-Over the past few months, I have been designing and validating a system-level conceptual framework that challenges the structural logic of traditional SOC workflows and the SIEM-centric operational paradigm.
+Over the past few years, I have been designing and validating a system-level conceptual framework that challenges the structural logic of traditional SOC workflows and the SIEM-centric operational paradigm.
 
 Modern SIEM platforms perform well in log collection, storage, and indexing. However, the investigation process remains heavily dependent on manual work: security analysts must write detection rules, master proprietary query languages (such as SPL, Lucene, or KQL), and examine logs line by line to reconstruct context. More critically, investigative capability relies on individual experience—when a key analyst leaves, that capability vanishes. Even worse, inconsistent log structures across different SIEM vendors lead to data fragmentation, high migration costs, and poor knowledge transferability.
 
