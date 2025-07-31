@@ -3,7 +3,7 @@ Author:Qimin Zhao
 Patent Disclosure and Confidentiality Notice:
 
 This structural model was formally submitted as an invention patent application to the China National Intellectual Property Administration (CNIPA) and the United States Patent and Trademark Office (USPTO) on June 19, 2025, with a simultaneous filing under the Patent Cooperation Treaty (PCT). The application is currently under acceptance and examination. The filing date constitutes the priority date and is protected under international novelty provisions in accordance with PCT standards.  
-Any unauthorized public citation, structural replication, or standardization-based adoption will be considered an infringement. This content is strictly provided for internal review by standardization bodies and may also be used for non-public, internal evaluation purposes within qualified enterprises. It is not authorized for public disclosure, reproduction, or third-party distribution.  
+Any unauthorized public citation, structural replication, or standardization-based adoption will be considered an infringement.  It is not authorized for public disclosure, reproduction, or third-party distribution.  
 All conceptual content is covered under active patent examination and may not be quoted, referenced, or integrated into other systems or proposals except with explicit written authorization from the patent holder, in which case standardization is permitted.  
 Over the past few months, I have been designing and validating a system-level conceptual framework that challenges the structural logic of traditional SOC workflows and the SIEM-centric operational paradigm.
 
