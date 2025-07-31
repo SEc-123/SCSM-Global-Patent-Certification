@@ -5,6 +5,12 @@ Patent Disclosure and Confidentiality Notice:
 This structural model was formally submitted as an invention patent application to the China National Intellectual Property Administration (CNIPA) and the United States Patent and Trademark Office (USPTO) on June 19, 2025, with a simultaneous filing under the Patent Cooperation Treaty (PCT). The application is currently under acceptance and examination. The filing date constitutes the priority date and is protected under international novelty provisions in accordance with PCT standards.  
 Any unauthorized public citation, structural replication, or standardization-based adoption will be considered an infringement.  It is not authorized for public disclosure, reproduction, or third-party distribution.  
 All conceptual content is covered under active patent examination and may not be quoted, referenced, or integrated into other systems or proposals except with explicit written authorization from the patent holder  
+
+
+
+
+
+
 Over the past few months, I have been designing and validating a system-level conceptual framework that challenges the structural logic of traditional SOC workflows and the SIEM-centric operational paradigm.
 
 Modern SIEM platforms perform well in log collection, storage, and indexing. However, the investigation process remains heavily dependent on manual work: security analysts must write detection rules, master proprietary query languages (such as SPL, Lucene, or KQL), and examine logs line by line to reconstruct context. More critically, investigative capability relies on individual experience—when a key analyst leaves, that capability vanishes. Even worse, inconsistent log structures across different SIEM vendors lead to data fragmentation, high migration costs, and poor knowledge transferability.
