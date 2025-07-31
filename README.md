@@ -15,9 +15,7 @@ This structural model was formally submitted as an **invention patent** to the *
 ### ⚠️ Restrictions
 
 - Any **unauthorized citation, structural replication, or standardization-based adoption** will be considered infringement.
-- This content is **strictly for internal evaluation** by:
-  - Recognized **standardization bodies**
-  - **Qualified enterprises** under **non-public review conditions**
+
 
 It is **not authorized** for:
 - Public disclosure
