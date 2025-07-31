@@ -1,6 +1,5 @@
 Author:Qimin Zhao
 
-Patent Disclosure and Confidentiality Notice:
 
 <span style="color:red"><strong>Patent Disclosure and Confidentiality Notice:</strong></span>
 
