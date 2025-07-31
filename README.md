@@ -2,9 +2,12 @@ Author:Qimin Zhao
 
 Patent Disclosure and Confidentiality Notice:
 
+<span style="color:red"><strong>Patent Disclosure and Confidentiality Notice:</strong></span>
+
 This structural model was formally submitted as an invention patent application to the China National Intellectual Property Administration (CNIPA) and the United States Patent and Trademark Office (USPTO) on June 19, 2025, with a simultaneous filing under the Patent Cooperation Treaty (PCT). The application is currently under acceptance and examination. The filing date constitutes the priority date and is protected under international novelty provisions in accordance with PCT standards.  
 Any unauthorized public citation, structural replication, or standardization-based adoption will be considered an infringement.  It is not authorized for public disclosure, reproduction, or third-party distribution.  
-All conceptual content is covered under active patent examination and may not be quoted, referenced, or integrated into other systems or proposals except with explicit written authorization from the patent holder  
+All conceptual content is covered under active patent examination and may not be quoted, referenced, or integrated into other systems or proposals except with explicit written authorization from the patent holder
+  
 
 
 
@@ -43,16 +46,15 @@ Consider this example:
 An attacker fails to log in to a server 500 times, then succeeds on the 501st attempt.  
 As an experienced analyst, your first reaction is clear:
 
- “That’s definitely not a normal login.”
+**“That’s definitely not a normal login.”**
 
-The failed attempts indicate brute-force intent; the successful login could mean credential theft, password guessing, or escalation.
+The failed attempts indicate **brute-force intent**; the successful login could mean **credential theft**, **password guessing**, or **escalation**.
 
 But what does the platform see?  
-Since the 501st attempt is marked as “login\success,” it is labeled as normal.  
-The first 500 failures and the final success are treated as unrelated events.  
-The platform has no context, no behavioral structure, and—most importantly—no investigation layer.  
-It relies solely on rule hits, with no ability to understand behavior logic.
-
+Since the 501st attempt is marked as **“login\success”**, it is labeled as **normal**.  
+The first 500 failures and the final success are treated as **unrelated events**.  
+The platform has **no context**, **no behavioral structure**, and—most importantly—**no investigation layer**.  
+It relies solely on **rule hits**, with **no ability to understand behavior logic**.
 Most platforms today are built around a familiar trio: Detection, Alerting, and Response.
 
 But think carefully—do any of them contain a module specifically designed for investigation?
