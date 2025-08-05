@@ -3,7 +3,7 @@
 
 ## 🧠 Introduction: The Real Blind Spot Is Not Computation — It’s the Lack of Structured Language
 
-Despite decades of innovation in cybersecurity tooling—SIEMs, SOARs, AI-enhanced analytics—the investigation process remains fundamentally broken.
+Despite decades of innovation in cybersecurity tooling—SIEMs,SOC, SOARs, AI-enhanced analytics—the investigation process remains fundamentally broken.
 
 Security operations still operate in a linear chain:
 
