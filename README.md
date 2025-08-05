@@ -56,7 +56,7 @@ National agencies, standardization bodies, and strategic partners are invited to
 
 🔗 Reference Repository
 
-https://github.com/SEc-123/SCSM-Global-Patent-Cert
+https://github.com/SEc-123/SCSM-Global-Patent-Certification/
 Contains: patent proof, authorship record, structural claims, formal disclaimers, and cooperation guidelines.
 
 
