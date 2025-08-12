@@ -6,7 +6,7 @@ Version: August 2025
 
 ---
 
-🔒 Project Status: Not Under Any National Control
+🔒 Project Status: 
 
 The Semantic Chain Security Model (SCSM) is a globally patented security investigation framework independently created and structurally governed by its original inventor.
 This project is not bound to, nor officially adopted by, any nation-state, governmental institution, or alliance body as of the date of June 19th.
