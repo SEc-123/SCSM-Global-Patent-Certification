@@ -11,7 +11,9 @@ Version: August 2025
 The Semantic Chain Security Model (SCSM) is a globally patented security investigation framework independently created and structurally governed by its original inventor.
 This project is not bound to, nor officially adopted by, any nation-state, governmental institution, or alliance body as of the date of June 19th.
 
+This white paper is provided for reference only. Any form of use without prior authorization is strictly prohibited. Public citation is permitted only with proper attribution to the original source. Any technical adoption, integration, or application based on this content is only lawful with prior written authorization from the patent holder.
 
+All conceptual content — including any similar concepts, methods, or systems falling within the scope of protection — is covered under active patent examination. Such content may not be quoted, referenced, replicated, or integrated into other systems, frameworks, or proposals except with explicit written authorization from the patent holder, in which case standardization is permitted.
 ---
 
 📜 Legal Status
