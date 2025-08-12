@@ -14,6 +14,8 @@ This project is not bound to, nor officially adopted by, any nation-state, gover
 This white paper is provided for reference only. Any form of use without prior authorization is strictly prohibited. Public citation is permitted only with proper attribution to the original source. Any technical adoption, integration, or application based on this content is only lawful with prior written authorization from the patent holder.
 
 All conceptual content — including any similar concepts, methods, or systems falling within the scope of protection — is covered under active patent examination. Such content may not be quoted, referenced, replicated, or integrated into other systems, frameworks, or proposals except with explicit written authorization from the patent holder, in which case standardization is permitted.
+
+Open-source authors may contact the patent holder for collaboration on non-commercial development and usage.
 ---
 
 📜 Legal Status
