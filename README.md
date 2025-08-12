@@ -1,7 +1,7 @@
 🛡️ SOVEREIGNTY & CONTROL NOTICE
 
 Semantic Chain Security Model (SCSM)
-Version: August 2025
+Version: V1.0 August 2025
 
 
 ---
