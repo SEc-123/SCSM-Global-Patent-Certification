@@ -66,10 +66,6 @@ Contains: patent proof, authorship record, structural claims, formal disclaimers
 
 ---
 
-🧭 Governance Principle
-
-> “Whoever defines the semantic layer, defines the investigation standard.”
-The structural controller retains full definition rights over the semantic chain investigation layer, its evolution logic, and cross-organizational governance design currently.
 
 
 
