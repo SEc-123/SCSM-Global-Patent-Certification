@@ -5,6 +5,13 @@ Version: V1.0 August 2025
 
 
 ---
+Authorization Statement (for Standardization Use)
+
+This model may be adopted by standardization organizations without any licensing fee, provided that its definitions and structures are not modified in a way that conflicts with the scope of the underlying patent.
+
+If any modifications to the model’s definitions, terminology, or structural logic are proposed during the standardization process, prior consultation with the inventor is required to ensure compatibility with the protected intellectual property.
+
+Use within standardization frameworks is therefore permitted on a royalty-free basis, under fair, reasonable, and non-discriminatory (FRAND) conditions, as long as the original definitions are preserved or changes are pre-agreed.
 
 🔒 Project Status: 
 
