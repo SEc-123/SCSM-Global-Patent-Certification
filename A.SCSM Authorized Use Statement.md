@@ -42,6 +42,18 @@ Commercial implementation licenses are divided into **Node-Level / Platform-Leve
 **Licensed Capabilities**:  
 - Output data in compliance with the unified SCSM semantics and structured fields (including standardized time format, role entity labeling, etc.) to produce behavior fragments consumable by a licensed Platform-Level system;  
 - Qualified products may apply for the **"SCSM-Compatible Behavior Node"** designation.
+### Certification Rationale & Necessity
+
+Security products from different vendors and categories often use inconsistent **data formats**, **field naming conventions**, and **semantic structures**.  
+Examples include:  
+- Time formats vary (UNIX timestamp, 24-hour clock, 12-hour clock, differing time zones).  
+- Role or subject identifiers differ (`hostip`, `ip`, `srcip`, etc.).  
+- Perimeter devices often lack a **Triple-Mapping Mechanism** for correlating roles, behaviors, and tags.  
+
+This certification ensures that all node-level devices provide a **unified semantic interface** aligned with the **SCSM Security Investigation Language**.  
+It standardizes field alignment and semantic tagging across heterogeneous products, enabling **seamless integration** within platform-level systems.  
+
+By enforcing these requirements, products from different vendors and categories can operate under a **single, interoperable investigation framework**, ensuring consistent interpretation, processing, and correlation of behavior data at the platform level.
 
 **Node-Level Certification Requirements (Product Specifications)**:  
 1. **Unified Interfaces and Configuration**:  
