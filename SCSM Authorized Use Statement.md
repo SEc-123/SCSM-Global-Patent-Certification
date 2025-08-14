@@ -81,7 +81,7 @@ Commercial implementation licenses are divided into **Node-Level / Platform-Leve
    - Provide a knowledge write-back interface for alliance sharing.  
 6. **Micro-Model Integration Service Interface**:  
    - Support dynamic addition/removal of micro-models;  
-   - Support local AI model integration (alliance-released fine-tuned models on GitHub / HuggingFace for optional deployment by governments or enterprises).  
+   - Support local AI model integration .  
 7. **Statistics & Visualization**:  
    - Provide interfaces for role statistics, behavior statistics, behavior classification, and behavior chain visualization.  
 8. **Tagging & Knowledge Write-Back Mechanism**:  
