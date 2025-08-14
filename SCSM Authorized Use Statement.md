@@ -28,7 +28,7 @@ Unauthorized deployment, integration, or derivation—whether direct or indirect
 
 ## 3.2 Implementation License (FRAND)
 
-All implementation, integration, and deployment of this method must be made available to all qualified applicants under the principles of **Fair, Reasonable, and Non-Discriminatory (FRAND)** licensing, and must comply with the corresponding certification requirements.  
+All implementation, integration, and deployment of this method must be made available to all qualified applicants under the principles of **Fair, Reasonable, Non-Discriminatory, and Transparent (FRAND-T)** licensing, and must comply with the corresponding certification requirements.  
 Commercial implementation licenses are divided into **Node-Level / Platform-Level / Organization-Level** categories, in strict alignment with the Global Security Investigation Capability Certification Framework.
 
 ---
