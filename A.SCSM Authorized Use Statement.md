@@ -14,6 +14,8 @@ Academic publications, research reports, and educational materials may reference
 
 Any experimental implementation, simulation, or functional testing—whether for commercial or non-commercial purposes—requires prior registration with the inventor of scsm and written authorization from the patent owner.
 
+All such references must include proper attribution to the original source, clearly identifying the model name (SCSM) and citing the inventor or official publication as applicable.
+
 Permitted Commercial Implementation
 
 Any implementation, integration, or deployment of SCSM for commercial purposes—including but not limited to security products, platforms, and enterprise/government systems—requires an implementation license in accordance with Section 3.2 of this statement.
