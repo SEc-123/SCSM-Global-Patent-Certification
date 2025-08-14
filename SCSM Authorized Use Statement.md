@@ -12,7 +12,7 @@ Permitted Academic and Research Use
 
 Academic publications, research reports, and educational materials may reference the SCSM theoretical framework and terminology without authorization, provided that such usage does not involve system implementation, functional deployment, or commercial exploitation.
 
-Any experimental implementation, simulation, or functional testing—whether for commercial or non-commercial purposes—requires prior registration with the AI Security Investigation Alliance (AI-SIA) and written authorization from the patent owner.
+Any experimental implementation, simulation, or functional testing—whether for commercial or non-commercial purposes—requires prior registration with the inventor of scsm and written authorization from the patent owner.
 
 Permitted Commercial Implementation
 
