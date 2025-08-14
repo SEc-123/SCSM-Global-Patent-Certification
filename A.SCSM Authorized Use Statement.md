@@ -50,7 +50,7 @@ Examples include:
 - Role or subject identifiers differ (`hostip`, `ip`, `srcip`, etc.).  
 - Perimeter devices often lack a **Triple-Mapping Mechanism** for correlating roles, behaviors, and tags.  
 
-This certification ensures that all node-level devices provide a **unified semantic interface** aligned with the **SCSM Security Investigation Language**, **with unified and unambiguous subject identifiers**.
+This certification ensures that all node-level devices provide a **unified semantic interface** aligned with the **SCSM Security Investigation Language**, **with unified and unambiguous subject(Srcip) identifiers**.
 
 It standardizes field alignment and semantic tagging across heterogeneous products, enabling **seamless integration** within platform-level systems.  
 
@@ -78,6 +78,17 @@ By enforcing these requirements, products from different vendors and categories 
 - Ingest data from licensed Node-Level sources and maintain semantic integrity throughout the processing pipeline;  
 - Construct valid semantic behavior chains, with capabilities including behavior indexing, pivot tracking, semantic timelines, and modular structured investigation tools;  
 - Provide structured investigation capabilities to multiple tenants or external customers (platform-as-a-service model).
+### Platform-Level Certification Necessity
+
+The necessity for platform-level certification recommends adopting a next-generation SOC paradigm security operations platform.  
+Through deployment integrated with node-level facilities, unified and standardized logs are collected into the **EBD** (Event Behavior Database).  
+
+In this paradigm, **SIEM is no longer just a log collector**, but, through certified modular integration, enables:  
+- AI-driven investigation and reasoning;  
+- Local editing and customization of behavior fragments;  
+- Integration with the **AI-SIA Alliance** knowledge-sharing mechanism;  
+- Structured platform support for **organization-level certification** of security structured investigation capabilities;  
+- Generation of structured security investigation reports.  
 
 **Note**: Any SOC platform (including SaaS, cloud-based SOC, or MSSP model) falls under the Platform-Level License category.
 
@@ -110,7 +121,15 @@ By enforcing these requirements, products from different vendors and categories 
 ### 3.2.3 Organization-Level Implementation License (Organization-Level License ↔ Organization-Level Certification)
 
 **Fee Structure**: Annual license fee for enterprises; one-time license fee for governments and critical information infrastructure.  
-**Eligible Applicants**: Enterprises, governments, and critical information infrastructure end-users.  
+**Eligible Applicants**: Enterprises, governments, and critical information infrastructure end-users. 
+### Organization-Level Certification Necessity
+
+The necessity for organization-level certification is that enterprises or governments, by deploying node-level and platform-level licensed products and devices, establish structured security investigation capabilities and apply for **organization-level security investigation capability certification**.  
+Becoming a member of the **AI-SIA Alliance** enables cross-country and cross-system access to the alliance’s exclusive **knowledge-sharing and write-back mechanism**, ensuring:  
+- Long-term retention of security investigation capabilities;  
+- Access to the latest security investigation intelligence from different regions;  
+- The ability to investigate whether similar attacks exist locally.  
+ 
 **Licensed Capabilities**:  
 - Establish complete structured investigation capability within the organization: deploy Node-Level licensed devices; operate a Platform-Level licensed system to generate behavior chains;  
 - Build a Role–Behavior Database (EBD) and configure investigation modules based on structured behavior fragments (e.g., data governance, insider threat, lateral movement);  
