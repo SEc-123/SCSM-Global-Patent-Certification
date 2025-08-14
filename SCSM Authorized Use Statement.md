@@ -1,14 +1,30 @@
-## 3.1 Scope of Application
+## 3.1 SCSM License Usage Instructions
 
-This statement applies to all valid patent rights held by the patent owner related to the structural definition of the **Security Investigation Layer** and the associated combination of core concepts, including but not limited to:  
-1. The definition of an independent investigation layer between the detection layer and the response layer in a security operations framework;  
-2. Core functional concepts, semantic relationships, data flows, and logical structures within the investigation layer;  
-3. Any system or method implementation directly corresponding to the above definitions.
+The patent owner grants the following usage rights for the Semantic Chain Security Model (SCSM) and all related patented concepts, methods, and structural definitions, subject to the terms outlined in this statement:
 
-When included in standardization documents, **if the definition, terminology, and structure are kept consistent**, they may be cited under **FRAND (Fair, Reasonable, and Non-Discriminatory)** principles **without additional authorization**.  
-Any modification, splitting, extension, or restructuring of the definition, terminology, structure, or conceptual combination during standardization **requires prior written authorization from the patent owner**, and the standard document must explicitly indicate the source of the patent rights and the scope of authorization.
+Permitted Standardization Citation
 
----
+Standardization bodies and their working groups may cite the SCSM definition, terminology, and structure without additional authorization under FRAND (Fair, Reasonable, and Non-Discriminatory) principles, provided that the cited content remains identical to the original definition and is clearly attributed to the patent owner.
+
+Any modification, redefinition, restructuring, or extension of the SCSM definition, terminology, or structure for inclusion in a standard requires prior written authorization from the patent owner.
+
+Permitted Academic and Research Use
+
+Academic publications, research reports, and educational materials may reference the SCSM theoretical framework and terminology without authorization, provided that such usage does not involve system implementation, functional deployment, or commercial exploitation.
+
+Any experimental implementation, simulation, or functional testing—whether for commercial or non-commercial purposes—requires prior registration with the AI Security Investigation Alliance (AI-SIA) and written authorization from the patent owner.
+
+Permitted Commercial Implementation
+
+Any implementation, integration, or deployment of SCSM for commercial purposes—including but not limited to security products, platforms, and enterprise/government systems—requires an implementation license in accordance with Section 3.2 of this statement.
+
+License categories include Node-Level, Platform-Level, and Organization-Level, each subject to their respective certification requirements.
+
+Prohibited Uses Without Authorization
+
+No party may modify, rebrand, or partially implement the SCSM framework in a manner intended to circumvent its structural or conceptual protection.
+
+Unauthorized deployment, integration, or derivation—whether direct or indirect—constitutes patent infringement and will be subject to legal enforcement.
 
 ## 3.2 Implementation License (FRAND)
 
