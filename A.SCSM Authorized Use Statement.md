@@ -1,5 +1,5 @@
 
-## Governance Principles
+## 1.Governance Principles
 
 To build a **decentralized**, **cross-national**, **cross-enterprise**, and **cross-government** system for **mutual recognition and intelligence sharing** in structured security investigation, the **knowledge write-back mechanism** is only enabled for entities that have successfully obtained **Organization-Level Certification**.  
 This requirement ensures **data consistency**, **structural alignment**, and prevents **semantic fragmentation or confusion**.
@@ -24,7 +24,7 @@ Only **Organization-Level Certified entities** can establish the full semantic l
 
 ---
 
-## Clarification of Key Concepts
+## 2.Clarification of Key Concepts
 
 - The **Behavior Fragment Editor** and the **Knowledge Write-Back Mechanism** are two distinct concepts:
 
