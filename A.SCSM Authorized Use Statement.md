@@ -132,7 +132,7 @@ Becoming a member of the **AI-SIA Alliance** enables cross-country and cross-sys
  
 **Licensed Capabilities**:  
 - Establish complete structured investigation capability within the organization: deploy Node-Level licensed devices; operate a Platform-Level licensed system to generate behavior chains;  
-- Build a Role–Behavior Database (EBD) and configure investigation modules based on structured behavior fragments (e.g., data governance, insider threat, lateral movement);  
+- Employ Node-Level and Platform-Level products certified by the AI-SIA Alliance, and demonstrate the capability to produce structured security investigation reports in compliance with the semantic investigation framework.;  
 - Operate with bi-directional integration into the SCSM knowledge write-back mechanism.
 
 **Special Provisions**:  
