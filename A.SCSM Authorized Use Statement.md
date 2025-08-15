@@ -31,7 +31,9 @@ Only **Organization-Level Certified entities** can establish the full semantic l
   - A behavior fragment refers to a single observable event, such as a brute-force login attempt; it is edited by local security analysts using AI and expert judgment, stored locally by the organization, and becomes an independent asset within the enterprise’s behavior fragment repository.
 
 For example:
-Tag: Brute Force Event BF ⇒ 100 failed login attempts (BCP) + 1 successful login (BPP) + pivot strength + additional conditions (e.g., within 24 hours).;
+Tag: Brute Force Event BF ⇒ 100 failed login attempts (BCP) + 1 successful login (BPP) + pivot strength + additional conditions (e.g., within 24 hours).
+A behavior fragment can represent an attack event, a normal event, or an abnormal but non-malicious activity.
+Organizations define and adjust the rules based on their specific context to determine how each fragment should be interpreted;
   - The **Knowledge Write-Back Mechanism** refers to a **structured submission** of a **sequence of related events** and their **semantic coordinates**, allowing the alliance to:
     - Perform cross-organizational comparison,
     - Validate global patterns,
