@@ -1,3 +1,39 @@
+
+## Governance Principles
+
+To build a **decentralized**, **cross-national**, **cross-enterprise**, and **cross-government** system for **mutual recognition and intelligence sharing** in structured security investigation, the **knowledge write-back mechanism** is only enabled for entities that have successfully obtained **Organization-Level Certification**.  
+This requirement ensures **data consistency**, **structural alignment**, and prevents **semantic fragmentation or confusion**.
+
+Semantic knowledge sharing and validation must rely on a **unified semantic structure and behavior chain model**, which only certified Organization-Level entities are capable of fully supporting.
+
+- **Node-Level products** (e.g., firewalls, EDRs) are responsible for **data collection or alert generation**;
+- **Platform-Level products** (e.g., SIEM, SOAR) are responsible for **data aggregation and preliminary analysis**, but **must support features essential for Organization-Level Certification**, including:
+  - Integration interfaces for AI-SIA Alliance,
+  - Micro-model service endpoints,
+  - Structured security investigation report generation.
+
+Only **Organization-Level Certified entities** can establish the full semantic loop:
+
+> `Structured Behavior Chain → Investigative Path → Verifiable Result`
+
+### Therefore:
+
+- **Entities without Organization-Level Certification**, even if partially deploying certified products, **cannot participate in alliance-level semantic validation or knowledge reasoning**.
+- **Uncertified Node or Platform-Level products** may cause **semantic incompatibility**, breaking the behavior chain structure.  
+  Hence, **Node-Level and Platform-Level certification is a mandatory prerequisite**.
+
+---
+
+## Clarification of Key Concepts
+
+- The **Behavior Fragment Editor** and the **Knowledge Write-Back Mechanism** are two distinct concepts:
+
+  - A **Behavior Fragment** refers to a **single observable event**, such as a login brute-force attempt;
+  - The **Knowledge Write-Back Mechanism** refers to a **structured submission** of a **sequence of related events** and their **semantic coordinates**, allowing the alliance to:
+    - Perform cross-organizational comparison,
+    - Validate global patterns,
+    - Evolve the shared knowledge base.
+
 ## 3.1 SCSM License Usage Instructions
 
 The patent owner grants the following usage rights for the Semantic Chain Security Model (SCSM) and all related patented concepts, methods, and structural definitions, subject to the terms outlined in this statement:
