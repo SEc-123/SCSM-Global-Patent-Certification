@@ -28,7 +28,10 @@ Only **Organization-Level Certified entities** can establish the full semantic l
 
 - The **Behavior Fragment Editor** and the **Knowledge Write-Back Mechanism** are two distinct concepts:
 
-  - A **Behavior Fragment** refers to a **single observable event**, such as a login brute-force attempt;
+  - A behavior fragment refers to a single observable event, such as a brute-force login attempt; it is edited by local security analysts using AI and expert judgment, stored locally by the organization, and becomes an independent asset within the enterprise’s behavior fragment repository.
+
+For example:
+Tag: Brute Force Event BF ⇒ 100 failed login attempts (BCP) + 1 successful login (BPP) + pivot strength + additional conditions (e.g., within 24 hours).;
   - The **Knowledge Write-Back Mechanism** refers to a **structured submission** of a **sequence of related events** and their **semantic coordinates**, allowing the alliance to:
     - Perform cross-organizational comparison,
     - Validate global patterns,
