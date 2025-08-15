@@ -39,6 +39,9 @@ Organizations define and adjust the rules based on their specific context to det
     - Validate global patterns,
     - Evolve the shared knowledge base.
 
+**The AI-SIA Alliance will annually publish a list of top-contributing enterprises and governments, recognizing their contributions and commitment to advancing global security investigation capabilities.**
+
+
 ## 3.1 SCSM License Usage Instructions
 
 The patent owner grants the following usage rights for the Semantic Chain Security Model (SCSM) and all related patented concepts, methods, and structural definitions, subject to the terms outlined in this statement:
