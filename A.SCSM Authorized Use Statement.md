@@ -186,8 +186,11 @@ Becoming a member of the **AI-SIA Alliance** enables cross-country and cross-sys
 - Initial Organization-Level licensing includes all capabilities except "knowledge write-back", which must be implemented via the AI-SIA Alliance;  
 - Behavior fragments are locally generated and stored by the SOC platform within the enterprise or government;  
 - In the initial phase, Organization-Level licensing does not mandate the use of Node-Level and Platform-Level products; certification will be required as the alliance evolves.
-
+- The rationale for requiring governments to obtain structured security investigation capability certification at the organization level is straightforward: governments also need to connect to the globally interconnected shared knowledge base for read and write-back mechanisms. Without first demonstrating their structured investigation capability, they risk contaminating interoperability and trustworthiness of investigations with non-structured data.
 ---
+**Special Friendly Provisions for Government-Level Licensing in Developing Countries**: 
+- For small-state governments in developing countries, the following special mechanism shall be available to Apply for Patent Fee Reduction or Free Licensing:
+Eligible governments may submit a formal request to the Expert Committee. Upon preliminary approval, the committee shall forward the application to the Alliance Licensing Office. The final decision on fee reduction or waiver rests with the inventor.
 
 ### General FRAND Constraints (Applicable to All Three License Levels)
 
