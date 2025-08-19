@@ -104,8 +104,9 @@ By implementing these requirements, products from different vendors and categori
 1.  -**Unified Interfaces and Configuration**:  
    - Provide a data output interface and a configurable management interface for selecting output fields;  
    - Maintain unified role identifiers and a standardized time format (YYYY-MM-DD, hh:mm:ss, time zone consistent).  
- -**Node-level certification ensures standardized input structures, while organization-level structured investigation certification ensures standardized output and international knowledge sharing. Without  - - -certification, unstructured data from uncertified systems may contaminate the interoperability and trustworthiness of investigations.**
- **Perimeter Devices** (e.g., WAF, Routers, Firewalls):  
+ -**Node-level certification ensures standardized input structures, while organization-level structured investigation certification ensures standardized output and international knowledge sharing. Without  certification, unstructured data from uncertified systems may contaminate the interoperability and trustworthiness of investigations.**
+ 
+**Perimeter Devices** (e.g., WAF, Routers, Firewalls):  
    - Must support a **Triple-Mapping Mechanism** (Role–Behavior–Tag mapping).  
 3. **Host Devices** (e.g., EDR, HIDS, HDLP):  
    - `hostip` must be mapped to `srcip`;  
