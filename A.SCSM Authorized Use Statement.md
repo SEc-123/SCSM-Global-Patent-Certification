@@ -172,7 +172,7 @@ In this paradigm, **SIEM is no longer just a log collector**, but, through certi
 ### Organization-Level Certification Necessity
 
 The necessity for organization-level certification is that enterprises or governments, by deploying node-level and platform-level licensed products and devices, establish structured security investigation capabilities and apply for **organization-level security investigation capability certification**.  
-Becoming a member of the **AI-SIA Alliance** enables cross-country and cross-system access to the alliance’s exclusive **knowledge-sharing and write-back mechanism**, ensuring:  
+Becoming a member of the **AI-SIA Alliance**(a closed‑loop design of identity id‑service‑data) enables cross-country and cross-system access to the alliance’s exclusive **Behavior Chain Shared Knowledge Base (BC‑KB) Platform** and **Micro‑model Inference‑as‑a‑Service(IaaS)** (normally subject to fees), ensuring:  
 - Long-term retention of security investigation capabilities;  
 - Access to the latest security investigation intelligence from different regions;  
 - The ability to investigate whether similar attacks exist locally.  
