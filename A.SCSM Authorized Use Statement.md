@@ -100,11 +100,12 @@ It standardizes field alignment and semantic tagging across heterogeneous produc
 
 By enforcing these requirements, products from different vendors and categories can operate under a **single, interoperable investigation framework**, ensuring consistent interpretation, processing, and correlation of behavior data at the platform level.
 
-**Node-Level Certification Requirements (Product Specifications)**:  
-1. **Unified Interfaces and Configuration**:  
+ -**Node-Level Certification Requirements (Product Specifications)**:  
+1.  -**Unified Interfaces and Configuration**:  
    - Provide a data output interface and a configurable management interface for selecting output fields;  
    - Maintain unified role identifiers and a standardized time format (YYYY-MM-DD, hh:mm:ss, time zone consistent).  
-2. **Perimeter Devices** (e.g., WAF, Routers, Firewalls):  
+ -**Node-level certification ensures standardized input structures, while organization-level structured investigation certification ensures standardized output and international knowledge sharing. Without  - - -certification, unstructured data from uncertified systems may contaminate the interoperability and trustworthiness of investigations.**
+ **Perimeter Devices** (e.g., WAF, Routers, Firewalls):  
    - Must support a **Triple-Mapping Mechanism** (Role–Behavior–Tag mapping).  
 3. **Host Devices** (e.g., EDR, HIDS, HDLP):  
    - `hostip` must be mapped to `srcip`;  
@@ -134,7 +135,9 @@ In this paradigm, **SIEM is no longer just a log collector**, but, through certi
 - Structured platform support for **organization-level certification** of security structured investigation capabilities;  
 - Generation of structured security investigation reports.  
 
-**Note**: Any SOC platform (including SaaS, cloud-based SOC, or MSSP model) falls under the Platform-Level License category.
+**Note**: 
+1.Any SOC platform (including SaaS, cloud-based SOC, or MSSP model) falls under the Platform-Level License category.
+2.Due to the structural and technological neutrality as well as the open-source adaptability of SCSM, enterprises and governments may independently develop SOC platforms in accordance with the platform-level standards. However, such SOC platforms must still obtain separate platform-level certification, since only a platform certified at this level qualifies as the semantic engine for security investigation.
 
 **Platform-Level Certification Requirements (Next-Generation SOC Paradigm)**:  
 1. **Role Database & Interaction**:  
