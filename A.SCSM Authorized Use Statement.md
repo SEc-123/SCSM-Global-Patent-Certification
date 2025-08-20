@@ -20,7 +20,9 @@ Only **Organization-Level Certified entities** can establish the full semantic l
 
   **Behavior Reasoning Layer （Platform-Level Certification）**
    → Construct standardized behavior chains from fragmented events  
+
    → Apply explainable AI models for semantic reasoning over behavior paths  
+
    → Apply pre-trained micro-models to score individual log events, providing fine-grained analytical input for semantic AI reasoning.
 
   **Expert Feedback and Knowledge Evolution Layer （Organization-Level Certification）**
