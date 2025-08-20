@@ -55,6 +55,10 @@ Organizations define and adjust the rules based on their specific context to det
     - Validate global patterns,
     - Evolve the shared knowledge base.
 
+**for example**：a behavior chain（BC） might describe it as:
+
+“a brute-force attempt behavioral fragment （BFL=1） → downloaded a script behavioral fragment （BFL=2） → initiated crypto-mining behavioral fragment（BFL=3）.”
+
 **The AI-SIA Alliance will annually publish a list of top-contributing enterprises and governments, recognizing their contributions and commitment to advancing global security investigation capabilities.**
 
 
