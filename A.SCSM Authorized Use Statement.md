@@ -42,24 +42,69 @@ Only **Organization-Level Certified entities** can establish the full semantic l
 
 ## 2.Clarification of Key Concepts
 
-- The **Behavior Fragment Editor** and the **Knowledge Write-Back Mechanism** are two distinct concepts:
+# Behavioral Fragment Editor vs. Knowledge Write-back Mechanism
 
-  - A behavior fragment refers to a single observable event, such as a brute-force login attempt; it is edited by local security analysts using AI and expert judgment, stored locally by the organization, and becomes an independent asset within the enterprise’s behavior fragment repository.
+This document clarifies the conceptual difference and operational scope between the **Behavioral Fragment Editor** and the **Knowledge Write-back Mechanism** in the context of the Semantic Chain Security Model (SCSM).
 
-For example:
-Tag: Brute Force Event BF ⇒ 100 failed login attempts (BCP) + 1 successful login (BPP) + pivot strength + additional conditions (e.g., within 24 hours).
-A behavior fragment can represent an attack event, a normal event, or an abnormal but non-malicious activity.
-Organizations define and adjust the rules based on their specific context to determine how each fragment should be interpreted;
-  - The **Knowledge Write-Back Mechanism** refers to a **structured submission** of a **sequence of related events** and their **semantic coordinates**, allowing the alliance to:
-    - Perform cross-organizational comparison,
-    - Validate global patterns,
-    - Evolve the shared knowledge base.
+---
 
-**for example**：a behavior chain（BC） might describe it as:
+## 1. Behavioral Fragment Editor
 
-“a brute-force attempt behavioral fragment （BFL=1） → downloaded a script behavioral fragment （BFL=2） → initiated crypto-mining behavioral fragment（BFL=3）.”
+A **behavioral fragment** refers to a single observable event (e.g., brute-force login attempt). These fragments are:
 
-**The AI-SIA Alliance will annually publish a list of top-contributing enterprises and governments, recognizing their contributions and commitment to advancing global security investigation capabilities.**
+- **Created locally** by security analysts using AI-assisted tools and expert judgment.
+- **Stored within the organization**, becoming independent semantic assets in a local behavior fragment repository.
+
+### 📌 Example
+
+> **Tag**: Brute-force Event (`BF`)  
+> **Definition**:  
+> - 100 failed login attempts (`BCP`)  
+> - 1 successful login (`BPP`)  
+> - Pivoting strength  
+> - Additional criteria (e.g., within 24 hours)  
+
+Fragments can represent:  
+- Malicious events (e.g., attacks)  
+- Normal operational behaviors  
+- Anomalies without malicious intent  
+
+Organizations define and refine these rules **contextually**, adapting the interpretation of each fragment to their environment.
+
+---
+
+## 2. Knowledge Write-back Mechanism
+
+The **Knowledge Write-back Mechanism** enables structured submission of **chains of related events** annotated with semantic coordinates. This capability allows the global alliance to:
+
+- Perform **cross-organizational comparisons**
+- **Validate global patterns**
+- **Evolve a shared investigation knowledge base**
+
+### 📌 Example
+
+> **Behavior Chain (BC)**:  
+> “Brute-force Login (BFL=1)” → “Script Download (BFL=2)” → “Crypto Mining Start (BFL=3)”
+
+---
+
+## Summary of Differences
+
+| Feature | Behavioral Fragment Editor | Knowledge Write-back Mechanism |
+|--------|-----------------------------|-------------------------------|
+| Scope | Single observable event | Full behavior chain |
+| Ownership | Local to organization | Shared with alliance |
+| Purpose | Asset creation and editing | Cross-org validation & knowledge evolution |
+| Example | Tagging and scoring login attempts | Contributing annotated event chains |
+
+---
+
+## Integration into SCSM Certification
+
+- **Node-Level Certification**: Requires behavioral fragments to be locally defined and semantically structured.  
+- **Platform-Level Certification**: Requires chaining fragments into semantic behavior chains and enabling AI-supported analysis.  
+- **Organization-Level Certification**: Requires participation in the write-back mechanism to contribute and access the global knowledge base.
+
 
 
 ## 3.1 SCSM License Usage Instructions
