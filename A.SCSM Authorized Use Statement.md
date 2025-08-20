@@ -84,8 +84,9 @@ The **Knowledge Write-back Mechanism** enables structured submission of **chains
 ##### 📌 Example
 
 > **Behavior Chain (BC)**:  
-> “Brute-force Login (BFL=1)” → “Script Download (BFL=2)” → “Crypto Mining Start (BFL=3)”
+> “Brute-force Login behavioral fragment (BFL=1)” → “Script Download behavioral fragment (BFL=2)” → “Crypto Mining behavioral fragment (BFL=3)”
 
+NOTE:Each behavioral fragment has a specific structural definition path for cross-organizational comparison and investigation.
 ---
 
 #### Summary of Differences
