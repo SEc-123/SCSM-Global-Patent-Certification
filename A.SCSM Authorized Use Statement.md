@@ -42,20 +42,20 @@ Only **Organization-Level Certified entities** can establish the full semantic l
 
 ## 2.Clarification of Key Concepts
 
-# Behavioral Fragment Editor vs. Knowledge Write-back Mechanism
+### Behavioral Fragment Editor vs. Knowledge Write-back Mechanism
 
 This document clarifies the conceptual difference and operational scope between the **Behavioral Fragment Editor** and the **Knowledge Write-back Mechanism** in the context of the Semantic Chain Security Model (SCSM).
 
 ---
 
-## 1. Behavioral Fragment Editor
+#### 1. Behavioral Fragment Editor
 
 A **behavioral fragment** refers to a single observable event (e.g., brute-force login attempt). These fragments are:
 
 - **Created locally** by security analysts using AI-assisted tools and expert judgment.
 - **Stored within the organization**, becoming independent semantic assets in a local behavior fragment repository.
 
-### 📌 Example
+##### 📌 Example
 
 > **Tag**: Brute-force Event (`BF`)  
 > **Definition**:  
@@ -73,7 +73,7 @@ Organizations define and refine these rules **contextually**, adapting the inter
 
 ---
 
-## 2. Knowledge Write-back Mechanism
+#### 2. Knowledge Write-back Mechanism
 
 The **Knowledge Write-back Mechanism** enables structured submission of **chains of related events** annotated with semantic coordinates. This capability allows the global alliance to:
 
@@ -81,14 +81,14 @@ The **Knowledge Write-back Mechanism** enables structured submission of **chains
 - **Validate global patterns**
 - **Evolve a shared investigation knowledge base**
 
-### 📌 Example
+##### 📌 Example
 
 > **Behavior Chain (BC)**:  
 > “Brute-force Login (BFL=1)” → “Script Download (BFL=2)” → “Crypto Mining Start (BFL=3)”
 
 ---
 
-## Summary of Differences
+#### Summary of Differences
 
 | Feature | Behavioral Fragment Editor | Knowledge Write-back Mechanism |
 |--------|-----------------------------|-------------------------------|
@@ -99,11 +99,6 @@ The **Knowledge Write-back Mechanism** enables structured submission of **chains
 
 ---
 
-## Integration into SCSM Certification
-
-- **Node-Level Certification**: Requires behavioral fragments to be locally defined and semantically structured.  
-- **Platform-Level Certification**: Requires chaining fragments into semantic behavior chains and enabling AI-supported analysis.  
-- **Organization-Level Certification**: Requires participation in the write-back mechanism to contribute and access the global knowledge base.
 
 
 
