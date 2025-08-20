@@ -15,18 +15,21 @@ Semantic knowledge sharing and validation must rely on a **unified semantic stru
 Only **Organization-Level Certified entities** can establish the full semantic loop:
 
  **Semantic Normalization Layer （Node-Level Certification）**
-   → Ensure that data from security products can be normalized and structurally mapped  
+  
+ → Ensure that data from security products can be normalized and structurally mapped  
      into a common semantic format with unified timestamp and role fields.
 
   **Behavior Reasoning Layer （Platform-Level Certification）**
-   → Construct standardized behavior chains from fragmented events  
+   
+→ Construct standardized behavior chains from fragmented events  
 
    → Apply explainable AI models for semantic reasoning over behavior paths  
 
    → Apply pre-trained micro-models to score individual log events, providing fine-grained analytical input for semantic AI reasoning.
 
   **Expert Feedback and Knowledge Evolution Layer （Organization-Level Certification）**
-   → Validate whether an organization can host internal investigation feedback loops,  
+  
+ → Validate whether an organization can host internal investigation feedback loops,  
      generate reusable behavior fragments, and participate in global semantic write-back ecosystems.
 
 ### Therefore:
