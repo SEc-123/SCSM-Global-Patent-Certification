@@ -14,7 +14,7 @@ Semantic knowledge sharing and validation must rely on a **unified semantic stru
 
 Only **Organization-Level Certified entities** can establish the full semantic loop:
 
-> **Semantic Normalization Layer （Node-Level Certification）**
+ **Semantic Normalization Layer （Node-Level Certification）**
    → Ensure that data from security products can be normalized and structurally mapped  
      into a common semantic format with unified timestamp and role fields.
 
