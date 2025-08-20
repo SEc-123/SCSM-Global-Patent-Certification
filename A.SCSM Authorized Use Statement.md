@@ -14,7 +14,7 @@ Semantic knowledge sharing and validation must rely on a **unified semantic stru
 
 Only **Organization-Level Certified entities** can establish the full semantic loop:
 
-> `Structured Behavior Chain → Investigative Path → Verifiable Result`
+> `Field Normalization Layer（Node-Level Certification） → Behavior Chain Modeling Layer、AI Semantic Reasoning Layer、Micro-Scoring Layer（Platform-Level Certification） → Expert Feedback & Knowledge Loop（Organization-Level Certification）`
 
 ### Therefore:
 
