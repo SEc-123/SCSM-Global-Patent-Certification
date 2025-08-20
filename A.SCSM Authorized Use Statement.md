@@ -69,7 +69,7 @@ Fragments can represent:
 - Normal operational behaviors  
 - Anomalies without malicious intent  
 
-Organizations define and refine these rules **contextually**, adapting the interpretation of each fragment to their environment.
+Organizations define and refine these rules **contextually**,which can define what constitutes normal, anomalous, or malicious behavioral fragments based on their own context， adapting the interpretation of each fragment to their environment.
 
 ---
 
