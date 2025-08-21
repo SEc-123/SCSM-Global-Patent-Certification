@@ -70,10 +70,11 @@ Think of SCSM as a **framework standard**, not a binding product.
 | ✅ Platform Lock-In | **No** – changeable anytime |
 | ✅ Data Sovereignty | **Fully local** – never exported |
 | ✅ Write-Back Mechanism | **Expert-controlled**, **optional**, **anonymized** |
-| ✅ Micro-Model Integration | **Pluggable**, **self-trainable**, or **use alliance-provided models** |
+| ✅ AI Model & Micro-Model Integration | **Pluggable**, **self-trainable**, or **use alliance-provided models** |
 | ✅ Governance | **Decentralized**, **regionally co-governed** |
 | ✅ Black-Box Risk | **None** – structure fully open and defined |
+| ✅ Governance & Certification Transparency | **All alliance governance, certification criteria, licensing terms, and institutional rules are fully transparent and publicly accessible** |
 
 If you are a government body, platform vendor, or independent developer, **SCSM is not a product—it’s a structural blueprint for future-proof, standardized security investigation.**
 
-To request documentation or certification guidelines, contact us for the *SCSM Structural Investigation Capability Certification Manual*.
+To learn more about certification requirements and how to obtain authorized use, please visit: [SCSM Authorized Use Statement](https://github.com/SEc-123/SCSM-Global-Patent-Certification/blob/main/A.SCSM%20Authorized%20Use%20Statement.md).
