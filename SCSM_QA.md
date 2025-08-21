@@ -92,8 +92,7 @@ The Alliance’s fee mechanism is **transparent and stable**, with no hidden or 
 - **Fee Composition (Structural Authorization Fee):**  
   - **5% → Certification Fee** (third-party review and certification system maintenance)  
   - **5% → Alliance Membership Fee** (supporting governance, annual summits, and activities)  
-  - **5% → Knowledge Write-Back Incentive Pool** (annual rewards for contributing members)  
-  - **Remaining Funds → Patent maintenance, legal operations, technical maintenance, and governance costs**  
+  - **5% → Knowledge Write-Back Incentive Pool** (annual rewards for contributing members)    
 
 - **Micro-Model Invocation Fees**:  
   Charged per-use, and fully allocated to the Alliance technical team for infrastructure operations and sustaining structural authorization.
