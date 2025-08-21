@@ -74,6 +74,7 @@ Think of SCSM as a **framework standard**, not a binding product.
 | ✅ Governance | **Decentralized**, **regionally co-governed** |
 | ✅ Black-Box Risk | **None** – structure fully open and defined |
 | ✅ Governance & Certification Transparency | **All alliance governance, certification criteria, licensing terms, and institutional rules are fully transparent and publicly accessible** |
+| ✅ Preferential Access for Developing Nations | **The alliance provides tailored preferential policies, including fee reductions and support mechanisms, for developing and small sovereign states** |
 
 If you are a government body, platform vendor, or independent developer, **SCSM is not a product—it’s a structural blueprint for future-proof, standardized security investigation.**
 
