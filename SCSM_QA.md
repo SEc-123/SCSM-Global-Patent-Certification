@@ -14,6 +14,8 @@ Its core value lies in:
 - Fully **open-source compatible**
 - Can be **locally developed** by any country or organization
 - **Data remains fully local**, and sovereignty stays with the deployer
+- **Micro-models are pluggable and interoperable.**
+Organizations may either independently train their own micro-models and integrate them into certified SOC platforms, or optionally adopt pre-trained models provided by the AI-SIA Alliance.
 
 ---
 
