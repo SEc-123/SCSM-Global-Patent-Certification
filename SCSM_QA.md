@@ -25,7 +25,11 @@ Organizations may either independently train their own AI Model & micro-models a
 No. The "Knowledge Write-Back Mechanism" is part of AI-SIA Alliance governance. It operates **under structural controller authorization** and is available only to certified governments, enterprises, and organizations.
 
 **Key Features:**  
-- **Voluntary Participation**: Membership in the alliance is optional and open
+- **Membership in the AI-SIA Alliance** is a prerequisite for any certified use of the SCSM structure.
+This ensures legal authorization and architectural consistency across implementations.
+However, membership does not imply a mandatory obligation to contribute data or knowledge.
+Participation in the knowledge write-back mechanism or the alliance’s micro-model repository is entirely voluntary, and subject to local governance and expert discretion.
+The alliance respects data sovereignty and operational independence at all times.
 - **Decentralized Governance**: Managed by regional representatives worldwide
 - **Expert-Driven**: Write-back actions are conducted by **human experts**, not AI, and there’s **no obligation**
 - **Data Anonymization Required**: Only anonymized semantic knowledge can be written back—no raw or sensitive data involved
