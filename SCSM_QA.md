@@ -80,6 +80,8 @@ It is not a treaty-based intergovernmental organization, nor a purely commercial
 | **Observer Members** | Any certified enterprises may participate as an observer member — eligible to access certified interfaces and collaborate without governance authority. |
 | **Standards Organization Seats** | International or national standards bodies may assign official observers to participate in governance discussions and structural roadmap decisions to ensure compatibility and transparency. |
 
+---
+
 ## ❓ What is the fee mechanism of the AI-SIA Alliance? What is it used for?
 
 **Answer:**  
@@ -179,7 +181,7 @@ Participation in AI-SIA requires formal authorization to use the patented SCSM s
 | ✅ Black-Box Risk | **None** – structure fully open and defined |
 | ✅ Governance & Certification Transparency | **All alliance governance, certification criteria, licensing terms, and institutional rules are fully transparent and publicly accessible** |
 | ✅ Preferential Policy for Small Developing States | **The alliance offers preferential certification terms and institutional support specifically for small developing countries to ensure fair and inclusive global adoption** |
-
+---
 **AI-SIA is a decentralized alliance jointly governed by a Structural Controller and a globally representative Expert Committee. It includes sovereign states, certified enterprises, and standards bodies — all committed to maintaining structural consistency, enabling semantic investigation, and ensuring interoperability across the global security ecosystem.**
 If you are a government body,Enterprises, platform vendor, or independent developer, **SCSM is not a product—it’s a structural blueprint for future-proof, standardized security investigation.**
 
