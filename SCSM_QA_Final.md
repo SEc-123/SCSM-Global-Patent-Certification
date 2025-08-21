@@ -36,7 +36,7 @@ No. The "Knowledge Write-Back Mechanism" is part of AI-SIA Alliance governance. 
   Mechanisms such as **knowledge write-back** and **micro-model collaboration** are **fully optional**, and governed by local policy and expert discretion.  
 
   The alliance governance model ensures full **respect for data sovereignty**, **local autonomy**, and **non-intrusive certification boundaries**.
-- **Decentralized Governance**: Decentralized Governance: Led by the Expert Committee, composed of technical and compliance representatives from East Asia, North America, South America / Australia / New Zealand, Western Europe, Eastern Europe, the Gulf Region, Africa, and Southeast Asia — not governed by any individual.
+- **Decentralized Governance**: Led by the Expert Committee, composed of technical and compliance representatives from East Asia, North America, South America / Australia / New Zealand, Western Europe, Eastern Europe, the Gulf Region, Africa, and Southeast Asia — not governed by any individual.
 - **Expert-Driven**: Write-back actions are conducted by **human experts**, not AI, and there’s **no obligation**
 - **Data Anonymization Required**: Only anonymized semantic knowledge can be written back—no raw or sensitive data involved
 - **No intelligence value in raw form**: Only behavior patterns, not sensitive data, are shareable
