@@ -200,6 +200,7 @@ In this paradigm, **SIEM is no longer just a log collector**, but, through certi
 **Note**: 
 1.Any SOC platform (including SaaS, cloud-based SOC, or MSSP model) falls under the Platform-Level License category.
 2.Due to the structural and technological neutrality as well as the open-source adaptability of SCSM, enterprises and governments may independently develop SOC platforms in accordance with the platform-level standards. However, such SOC platforms must still obtain separate platform-level certification, since only a platform certified at this level qualifies as the semantic engine for security investigation.
+3.If you are building your own platform-level product — whether as an enterprise or a government — a one-time authorization option is available, provided the implementation is non-commercial.
 
 **Platform-Level Certification Requirements (Next-Generation SOC Paradigm)**:  
 1. **Role Database & Interaction**:  
