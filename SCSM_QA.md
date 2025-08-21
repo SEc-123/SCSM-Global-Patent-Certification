@@ -110,7 +110,7 @@ AI-SIA is **not a control mechanism**, nor a monitoring system. Its objectives a
 
 Participation in AI-SIA requires formal authorization to use the patented SCSM structure:
 
-- Members must complete Organization / Platform / Node-Level Certification  
+- Members must complete Organization  Certification  
 - Authorization may be **annual or one-time**, depending on use case  
 - Members agree to uphold core principles of structural integrity, interface consistency, and data sovereignty
 
