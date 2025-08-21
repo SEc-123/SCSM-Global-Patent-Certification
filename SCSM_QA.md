@@ -80,6 +80,54 @@ It is not a treaty-based intergovernmental organization, nor a purely commercial
 | **Observer Members** | Any certified enterprises may participate as an observer member — eligible to access certified interfaces and collaborate without governance authority. |
 | **Standards Organization Seats** | International or national standards bodies may assign official observers to participate in governance discussions and structural roadmap decisions to ensure compatibility and transparency. |
 
+## ❓ What is the fee mechanism of the AI-SIA Alliance? What is it used for?
+
+**Answer:**  
+The Alliance’s fee mechanism is **transparent and stable**, with no hidden or arbitrary charges.  
+
+- **Legitimacy of Fees**:  
+  - The Structural Controller is the inventor and patent holder of SCSM; charging structural authorization fees is legally valid.  
+  - A portion of the income is used to pay **PCT international patent annual fees**, ensuring the framework remains legally protected worldwide.  
+
+- **Fee Composition (Structural Authorization Fee):**  
+  - **5% → Certification Fee** (third-party review and certification system maintenance)  
+  - **5% → Alliance Membership Fee** (supporting governance, annual summits, and activities)  
+  - **5% → Knowledge Write-Back Incentive Pool** (annual rewards for contributing members)  
+  - **Remaining Funds → Patent maintenance, legal operations, technical maintenance, and governance costs**  
+
+- **Micro-Model Invocation Fees**:  
+  Charged per-use, and fully allocated to the Alliance technical team for infrastructure operations and sustaining structural authorization.
+
+---
+
+## ❓ How does the Knowledge Write-Back Incentive work?
+
+**Answer:**  
+- **Eligibility**: Only members with **Organization-Level Certification** are allowed to submit write-back data.  
+- **Evaluation**:  
+  - Each write-back entry (anonymized, semantic behavior patterns) undergoes quality evaluation.  
+  - Organizations and nations receive a **contribution grade** based on both quantity and quality of contributions.  
+- **Incentives**:  
+  - Annual bonuses are distributed according to contribution grades.  
+  - Regional rankings are published each year, and top-ranked countries receive honorary recognition.  
+- **Strategic Impact**: Regional rankings directly affect the **allocation of Expert Committee representative seats**.
+
+---
+
+## ❓ Are Expert Committee representatives permanent?
+
+**Answer:**  
+No, representatives are **not permanent**.  
+
+- **Term**: Each regional representative serves a **5-year term**. The **first-term representatives are appointed by the Structural Controller**.  
+- **Evaluation Criteria**: Regional contribution performance over the past 5 years, measured by **knowledge write-back quantity and quality**.  
+- **Replacement Rules**:  
+  - If the current representative’s country or enterprises show insufficient contribution, their seat may be reassigned to another proactive “special member” from the same region.  
+  - This ensures that **key contributors maintain governance roles** and prevents long-term inactivity.  
+- **Objective**: To maintain **fairness, accountability, and active governance**, ensuring the Alliance stays dynamic and contribution-driven.
+
+
+
 ---
 
 ## ✅ Membership & Certification Framework
