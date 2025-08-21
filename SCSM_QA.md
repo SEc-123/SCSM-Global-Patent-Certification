@@ -90,8 +90,8 @@ All members must undergo **structural certification and authorized use licensing
 |-------------|---------------------------------------------|
 | **Governmental Organizations** | Must obtain **Organization-Level Certification**. Licensing may be **annual** or **one-time**, with no entry barrier. Governments may also build their own platforms and apply for platform-level certification. Non-commercial use is eligible for one-time structural authorization. |
 | **Self-Platform-Level Products** | Whether government- or enterprise-self-built, any platform must pass Platform-Level Certification. Non-commercial platforms may request one-time licensing; commercial platforms follow annual licensing. |
-| **Initial Enterprise Members (Limited Seats)** | Cybersecurity or cloud vendors that complete Node/Platform-Level Certification and occupy limited seats gain the right to participate in **interface evolution, technical roadmap discussions, and proposal submission**. |
-| **Other Enterprise Vendors** | May obtain certification and integrate into the ecosystem via defined interfaces, but without governance participation. Certification criteria remain identical. |
+| **Founder Tier Members (Limited Seats)** | Cybersecurity or cloud vendors that complete Node/Platform-Level Certification and occupy limited seats gain the right to participate in **interface evolution, technical roadmap discussions, and proposal submission**. |
+| **Other  Vendors** | May obtain certification and integrate into the ecosystem via defined interfaces, but without governance participation. Certification criteria remain identical. |
 
 ---
 
