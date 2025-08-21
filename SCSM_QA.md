@@ -85,7 +85,7 @@ It is not a treaty-based intergovernmental organization, nor a purely commercial
 **Answer:**  
 The Alliance’s fee mechanism is **transparent and stable**, with no hidden or arbitrary charges.  
 
-- **Legitimacy of Fees**:  
+- **Legitimacy of Fees**:  （FREND）
   - The Structural Controller is the inventor and patent holder of SCSM; charging structural authorization fees is legally valid.  
   - A portion of the income is used to pay **PCT international patent annual fees**, ensuring the framework remains legally protected worldwide.  
 
