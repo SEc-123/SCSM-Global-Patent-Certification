@@ -77,6 +77,6 @@ Think of SCSM as a **framework standard**, not a binding product.
 | ✅ Preferential Policy for Small Developing States | **The alliance offers preferential certification terms and institutional support specifically for small developing countries to ensure fair and inclusive global adoption** |
 
 
-If you are a government body, platform vendor, or independent developer, **SCSM is not a product—it’s a structural blueprint for future-proof, standardized security investigation.**
+If you are a government body,Enterprises, platform vendor, or independent developer, **SCSM is not a product—it’s a structural blueprint for future-proof, standardized security investigation.**
 
 To learn more about certification requirements and how to obtain authorized use, please visit: [SCSM Authorized Use Statement](https://github.com/SEc-123/SCSM-Global-Patent-Certification/blob/main/A.SCSM%20Authorized%20Use%20Statement.md).
