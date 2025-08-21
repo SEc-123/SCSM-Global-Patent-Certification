@@ -77,7 +77,7 @@ It is not a treaty-based intergovernmental organization, nor a purely commercial
 | **Expert Committee** | The Alliance’s highest governance body, composed of **technical and compliance representatives** from eight global regions: East Asia, North America, South America / Australia / New Zealand, Western Europe, Eastern Europe, the Gulf Region, Africa, and Southeast Asia. Fully responsible for governance, voting, technical evolution, and structural oversight. |
 | **Sovereign National Members** | In addition to regional representatives, any country may join as a “special member” to access structural standards and contribute to collective intelligence. |
 | **Initial Enterprise Members** | A limited number of cybersecurity and cloud vendors who, upon completing node- or platform-level certification, become **initial technical members** with rights to propose and co-design future technical interfaces and standards. |
-| **Observer Members** | Any certified government agency, enterprise, platform vendor, or research institution may participate as an observer member — eligible to access certified interfaces and collaborate without governance authority. |
+| **Observer Members** | Any certified enterprises may participate as an observer member — eligible to access certified interfaces and collaborate without governance authority. |
 | **Standards Organization Seats** | International or national standards bodies may assign official observers to participate in governance discussions and structural roadmap decisions to ensure compatibility and transparency. |
 
 ---
