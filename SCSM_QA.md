@@ -82,24 +82,7 @@ It is not a treaty-based intergovernmental organization, nor a purely commercial
 
 ---
 
-## ❓ What is the fee mechanism of the AI-SIA Alliance? What is it used for?
 
-**Answer:**  
-The Alliance’s fee mechanism is **transparent and stable**, with no hidden or arbitrary charges.  
-
-- **Legitimacy of Fees**:  （FREND）
-  - The Structural Controller is the inventor and patent holder of SCSM; charging structural authorization fees is legally valid.  
-  - A portion of the income is used to pay **PCT international patent annual fees**, ensuring the framework remains legally protected worldwide.  
-
-- **Fee Composition (Structural Authorization Fee):**  
-  - **5% → Certification Fee** (third-party review and certification system maintenance)  
-  - **5% → Alliance Membership Fee** (supporting governance, annual summits, and activities)  
-  - **5% → Knowledge Write-Back Incentive Pool** (annual rewards for contributing members)
-  - **5% → Knowledge Research Team Incentive Bonus
-  - 80% → Personal Income （Alliance Authorization Office）
-
-- **Micro-Model Invocation Fees**:  
-  Charged per-use, and allocated to the Alliance technical team and Structural Controller for infrastructure operations and sustaining structural authorization.
 
 ---
 
