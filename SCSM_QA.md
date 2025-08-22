@@ -78,7 +78,7 @@ It is not a treaty-based intergovernmental organization, nor a purely commercial
 | **Sovereign National Members** | In addition to regional representatives, any country may join as a “special member” to access structural standards and contribute to collective intelligence. |
 | **Initial Enterprise Members** | A limited number of cybersecurity and cloud vendors who, upon completing node- or platform-level certification, become **initial technical members** with rights to propose and co-design future technical interfaces and standards. |
 | **Observer Members** | Any certified enterprises may participate as an observer member — eligible to access certified interfaces and collaborate without governance authority. |
-| **Standards Organization Seats** | International or national standards bodies may assign official observers to participate in governance discussions and structural roadmap decisions to ensure compatibility and transparency. |
+| **Standards Organization Seats** | International standards bodies may assign official observers to participate in governance discussions and structural roadmap decisions to ensure compatibility and transparency. |
 
 ---
 
@@ -94,7 +94,8 @@ The Alliance’s fee mechanism is **transparent and stable**, with no hidden or 
 - **Fee Composition (Structural Authorization Fee):**  
   - **5% → Certification Fee** (third-party review and certification system maintenance)  
   - **5% → Alliance Membership Fee** (supporting governance, annual summits, and activities)  
-  - **5% → Knowledge Write-Back Incentive Pool** (annual rewards for contributing members)    
+  - **5% → Knowledge Write-Back Incentive Pool** (annual rewards for contributing members)
+  - **85% → Personal Income
 
 - **Micro-Model Invocation Fees**:  
   Charged per-use, and allocated to the Alliance technical team and Structural Controller for infrastructure operations and sustaining structural authorization.
