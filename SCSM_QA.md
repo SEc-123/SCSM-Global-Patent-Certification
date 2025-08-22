@@ -95,7 +95,7 @@ The Alliance’s fee mechanism is **transparent and stable**, with no hidden or 
   - **5% → Certification Fee** (third-party review and certification system maintenance)  
   - **5% → Alliance Membership Fee** (supporting governance, annual summits, and activities)  
   - **5% → Knowledge Write-Back Incentive Pool** (annual rewards for contributing members)
-  - **85% → Personal Income
+  - 85% → Personal Income
 
 - **Micro-Model Invocation Fees**:  
   Charged per-use, and allocated to the Alliance technical team and Structural Controller for infrastructure operations and sustaining structural authorization.
