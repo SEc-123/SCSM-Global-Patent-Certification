@@ -95,7 +95,8 @@ The Alliance’s fee mechanism is **transparent and stable**, with no hidden or 
   - **5% → Certification Fee** (third-party review and certification system maintenance)  
   - **5% → Alliance Membership Fee** (supporting governance, annual summits, and activities)  
   - **5% → Knowledge Write-Back Incentive Pool** (annual rewards for contributing members)
-  - 85% → Personal Income
+  - **5% → Knowledge Research Team Incentive Bonus
+  - 80% → Personal Income
 
 - **Micro-Model Invocation Fees**:  
   Charged per-use, and allocated to the Alliance technical team and Structural Controller for infrastructure operations and sustaining structural authorization.
@@ -129,6 +130,33 @@ No, representatives are **not permanent**.
 - **Objective**: To maintain **fairness, accountability, and active governance**, ensuring the Alliance stays dynamic and contribution-driven.
 
 
+---
+## ❓ Can global academic institutions, security labs, and red/blue teaming research groups join the Alliance?
+
+**Answer:**  
+- **Eligibility**: Yes, they can join the Alliance as **Special Research Members**.  
+- **Cooperation Mechanism**:  
+  - If applying for a joint research project, a **free Structural Co-Authorization Agreement** can be signed.  
+  - This agreement must be **project-bound**, and the **research data/results must be written back** to the knowledge pool.  
+  - A **minimum contribution threshold** is required; failure to meet the standard will result in **termination of cooperation**.  
+- **Incentives**:  
+  - As long as the threshold is met, the cooperation continues.  
+  - Eligible contributors may **receive annual research project bonus dividends** based on performance.
+
+---
+
+## ❓ Is the AI-SIA Alliance the same entity as the Alliance Authorization Office?
+
+**Answer:**  
+- **No**, the Authorization Office is an **independent affiliated entity** of the Alliance.  
+- **Reasoning**:  
+  - The **Structural Controller's patent licensing fees** are legally and financially independent from the Alliance.  
+  - Therefore, the Authorization Office should **not be governed directly by the Alliance**.  
+- **Oversight**:  
+  - However, the office remains under **Expert Committee supervision** to ensure compliance and fairness.  
+- **Revenue Sharing**:  
+  - The Structural Controller **transfers a portion of annual revenue** into the Alliance fund pool.  
+  - These funds are used for **research funding, Alliance operations, system maintenance, and bonus payouts**.
 
 ---
 
