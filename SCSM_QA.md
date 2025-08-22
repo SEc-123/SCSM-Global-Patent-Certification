@@ -96,7 +96,7 @@ The Alliance’s fee mechanism is **transparent and stable**, with no hidden or 
   - **5% → Alliance Membership Fee** (supporting governance, annual summits, and activities)  
   - **5% → Knowledge Write-Back Incentive Pool** (annual rewards for contributing members)
   - **5% → Knowledge Research Team Incentive Bonus
-  - 80% → Personal Income
+  - 80% → Personal Income （Alliance Authorization Office）
 
 - **Micro-Model Invocation Fees**:  
   Charged per-use, and allocated to the Alliance technical team and Structural Controller for infrastructure operations and sustaining structural authorization.
