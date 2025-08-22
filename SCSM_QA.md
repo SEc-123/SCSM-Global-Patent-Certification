@@ -111,7 +111,7 @@ The Alliance’s fee mechanism is **transparent and stable**, with no hidden or 
   - Organizations and nations receive a **contribution grade** based on both quantity and quality of contributions.  
 - **Incentives**:  
   - Annual bonuses are distributed according to contribution grades.  
-  - Regional rankings are published each year, and top-ranked countries receive honorary recognition.  
+  - Regional rankings enterprises are published each year, and top-ranked countries receive honorary recognition.  
 - **Strategic Impact**: Regional rankings directly affect the **allocation of Expert Committee representative seats**.
 
 ---
