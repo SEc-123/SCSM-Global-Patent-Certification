@@ -73,7 +73,7 @@ It is not a treaty-based intergovernmental organization, nor a purely commercial
 
 | Stakeholder | Description |
 |-------------|-------------|
-| **Structural Controller** | Maintains structural and semantic integrity of the SCSM architecture. Does not participate in governance or commercial decisions. Acts as the **guardian of definition and legal consistency**. |
+| **Structural Controller** | Maintains structural and semantic integrity of the SCSM architecture. Does not participate in governance decisions. Acts as the **guardian of definition and legal consistency**. |
 | **Expert Committee** | The Alliance’s highest governance body, composed of **technical and compliance representatives** from eight global regions: East Asia, North America, South America / Australia / New Zealand, Western Europe, Eastern Europe, the Gulf Region, Africa, and Southeast Asia. Fully responsible for governance, voting, technical evolution, and structural oversight. |
 | **Sovereign National Members** | In addition to regional representatives, any country may join as a “special member” to access structural standards and contribute to collective intelligence. |
 | **Initial Enterprise Members** | A limited number of cybersecurity and cloud vendors who, upon completing node- or platform-level certification, become **initial technical members** with rights to propose and co-design future technical interfaces and standards. |
