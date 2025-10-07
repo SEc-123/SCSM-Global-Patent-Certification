@@ -57,10 +57,7 @@ AI Knowledge Loop Structures
 
 ---
 
-✅ Cooperation Pathways Open
 
-With the UAE conclusion of an exclusive evaluation window (June 21 – August 8, 2025), the SCSM project has now entered an international public evaluation phase.
-Other National agencies, standardization bodies, and strategic partners are invited to engage directly via formal structural engagement proposals.
 
 
 ---
