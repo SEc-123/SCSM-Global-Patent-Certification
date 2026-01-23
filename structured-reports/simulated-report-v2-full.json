@@ -1,0 +1,266 @@
+{
+  "report_id": "rpt-sha256-7f8a9b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a",
+  "chain_id": "chain-ent-usr123-win24h-1706086400000",
+  "revision": 2,
+  "report_version": "v2",
+  "meta": {
+    "chain_id": "chain-ent-usr123-win24h-1706086400000",
+    "chain_revision": 2,
+    "entity_id": "user-jsmith-prod-01",
+    "window_start_ms": 1706000000000,
+    "window_end_ms": 1706086400000,
+    "generated_at_ms": 1706090000000,
+    "inputs_snapshot": {
+      "priority_policy_version": "1.2.0",
+      "bpp_policy_version": "2.1.0",
+      "report_policy_version": "1.0.0",
+      "ai_policy_version": "1.5.0",
+      "human_policy_version": "1.0.0"
+    }
+  },
+  "timeline": [
+    {
+      "seq": 0,
+      "type": "BCP",
+      "t_start_ms": 1674453600000,
+      "t_end_ms": 1674453600000,
+      "ref": {
+        "log_id": 1001
+      }
+    },
+    {
+      "seq": 1,
+      "type": "BCP",
+      "t_start_ms": 1674453601000,
+      "t_end_ms": 1674453601000,
+      "ref": {
+        "log_id": 1002
+      }
+    },
+    {
+      "seq": 2,
+      "type": "BCP",
+      "t_start_ms": 1674453602000,
+      "t_end_ms": 1674453602000,
+      "ref": {
+        "log_id": 1003
+      }
+    },
+    {
+      "seq": 3,
+      "type": "BCP",
+      "t_start_ms": 1674453603000,
+      "t_end_ms": 1674453603000,
+      "ref": {
+        "log_id": 1004
+      }
+    },
+    {
+      "seq": 4,
+      "type": "BCP",
+      "t_start_ms": 1674453604000,
+      "t_end_ms": 1674453604000,
+      "ref": {
+        "log_id": 1005
+      }
+    },
+    {
+      "seq": 5,
+      "type": "BSP",
+      "t_start_ms": 1674453605000,
+      "t_end_ms": 1674453605000,
+      "ref": {
+        "log_id": 1006
+      }
+    },
+    {
+      "seq": 6,
+      "type": "BF",
+      "t_start_ms": 1674453600000,
+      "t_end_ms": 1674453605000,
+      "ref": {
+        "bf_id": "bf-a1b2c3d4-e5f6-7890-1234-567890abcdef"
+      },
+      "bf": {
+        "bf_id": "bf-a1b2c3d4-e5f6-7890-1234-567890abcdef",
+        "action": "ssh_login_attempt",
+        "bfl": 3,
+        "bfl_explain": {
+          "action_id": "AUTH",
+          "base_score": 10,
+          "final_score": 90,
+          "multipliers": [
+            {
+              "feature": "attempt_count",
+              "value": 5,
+              "weight": 10,
+              "type": "multiplicative"
+            },
+            {
+              "feature": "has_external_ip",
+              "value": true,
+              "weight": 20,
+              "type": "additive"
+            },
+            {
+              "feature": "time_window_seconds",
+              "value": 5,
+              "weight": 5,
+              "type": "additive"
+            }
+          ]
+        },
+        "bindings": {
+          "member_bcp_log_ids": [1001, 1002, 1003, 1004, 1005],
+          "derived_bpp_id": "bpp-e5f6-7890-1234-567890abcdef",
+          "anchor_bsp_log_id": 1006
+        },
+        "bpps": [
+          {
+            "bpp_id": "bpp-e5f6-7890-1234-567890abcdef",
+            "anchor_bsp_log_id": 1006,
+            "pti": 0.92,
+            "pti_explain": {
+              "base_score": 0.5,
+              "multipliers": {
+                "failed_attempts_before_success": 5,
+                "time_window_seconds": 5,
+                "unique_source_ips": 1
+              }
+            },
+            "evidence_log_ids": [1001, 1002, 1003, 1004, 1005]
+          }
+        ]
+      }
+    },
+    {
+      "seq": 7,
+      "type": "BCP",
+      "t_start_ms": 1674453660000,
+      "t_end_ms": 1674453660000,
+      "ref": {
+        "log_id": 2001
+      }
+    },
+    {
+      "seq": 8,
+      "type": "BCP",
+      "t_start_ms": 1674453661000,
+      "t_end_ms": 1674453661000,
+      "ref": {
+        "log_id": 2002
+      }
+    },
+    {
+      "seq": 9,
+      "type": "BCP",
+      "t_start_ms": 1674453662000,
+      "t_end_ms": 1674453662000,
+      "ref": {
+        "log_id": 2003
+      }
+    },
+    {
+      "seq": 10,
+      "type": "BSP",
+      "t_start_ms": 1674453663000,
+      "t_end_ms": 1674453663000,
+      "ref": {
+        "log_id": 2004
+      }
+    },
+    {
+      "seq": 11,
+      "type": "BF",
+      "t_start_ms": 1674453660000,
+      "t_end_ms": 1674453663000,
+      "ref": {
+        "bf_id": "bf-b2c3d4e5-f6a7-8901-2345-67890abcdef0"
+      },
+      "bf": {
+        "bf_id": "bf-b2c3d4e5-f6a7-8901-2345-67890abcdef0",
+        "action": "sudo_attempt",
+        "bfl": 2,
+        "bfl_explain": {
+          "action_id": "PRIV_ESC",
+          "base_score": 30,
+          "final_score": 65,
+          "multipliers": [
+            {
+              "feature": "attempt_count",
+              "value": 3,
+              "weight": 5,
+              "type": "multiplicative"
+            },
+            {
+              "feature": "is_sudo",
+              "value": true,
+              "weight": 20,
+              "type": "additive"
+            }
+          ]
+        },
+        "bindings": {
+          "member_bcp_log_ids": [2001, 2002, 2003],
+          "derived_bpp_id": "bpp-f6a7-8901-2345-67890abcdef0",
+          "anchor_bsp_log_id": 2004
+        },
+        "bpps": [
+          {
+            "bpp_id": "bpp-f6a7-8901-2345-67890abcdef0",
+            "anchor_bsp_log_id": 2004,
+            "pti": 0.78,
+            "pti_explain": {
+              "base_score": 0.4,
+              "multipliers": {
+                "failed_attempts_before_success": 3,
+                "time_window_seconds": 3,
+                "is_privilege_escalation": true
+              }
+            },
+            "evidence_log_ids": [2001, 2002, 2003]
+          }
+        ]
+      }
+    }
+  ],
+  "hotspots": [
+    {
+      "hotspot_type": "BFL_ESCALATION",
+      "seq_range": [0, 6],
+      "reason_tags": ["high_pti", "external_ip", "brute_force"],
+      "evidence_refs": ["bf-a1b2c3d4-e5f6-7890-1234-567890abcdef"],
+      "severity": "HIGH"
+    },
+    {
+      "hotspot_type": "TRANSITION_CLUSTER",
+      "seq_range": [7, 11],
+      "reason_tags": ["privilege_escalation", "sudo_abuse"],
+      "evidence_refs": ["bf-b2c3d4e5-f6a7-8901-2345-67890abcdef0"],
+      "severity": "MEDIUM"
+    }
+  ],
+  "reviews": {
+    "ai_review": {
+      "decision": "escalate",
+      "confidence": 0.45,
+      "summary": "Detected SSH brute force attack from external IP followed by successful login and privilege escalation attempt. Escalating due to confirmed post-compromise activity."
+    },
+    "human_review": {
+      "verdict": "confirmed_threat",
+      "confidence": 95,
+      "summary": "Confirmed brute force attack followed by privilege escalation. Attacker gained root access. Recommend immediate incident response."
+    }
+  },
+  "audit_trail": {
+    "ai_queue_id": "aiq-001-ssh-brute",
+    "human_queue_id": "hq-001-escalated",
+    "reviewers": ["analyst-042"],
+    "timestamps": {
+      "chain_created_ms": 1706086400000,
+      "report_generated_ms": 1706090000000,
+      "ai_reviewed_ms": 1706091000000,
+      "human_reviewed_ms": 1706095000000
+    }
+  }
+}
