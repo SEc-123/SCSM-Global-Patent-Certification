@@ -1,251 +1,309 @@
-# Behavior Analysis Report (ReportPayload v1)
+# Behavior Chain Report (ReportV2 - Full Chain Restorability)
 
-## Meta
+## Report Metadata
 
 | Field | Value |
 |-------|-------|
+| **Report ID** | `7f8a9b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a` |
 | **Chain ID** | `chain-ent-usr123-win24h-1706086400000` |
-| **Chain Revision** | 2 |
-| **Entity ID** | `user-jsmith-prod-01` |
-| **Window Start** | 2024-01-23 00:00:00 UTC (1706000000000) |
-| **Window End** | 2024-01-24 00:00:00 UTC (1706086400000) |
-| **Generated At** | 2024-01-24 01:06:40 UTC (1706090000000) |
-
-### Policy Versions (inputs_snapshot)
-
-| Policy | Version |
-|--------|---------|
-| Priority Policy | 1.2.0 |
-| BPP Policy | 2.1.0 |
-| Report Policy | 1.0.0 |
-| AI Policy | 1.5.0 |
-| Human Policy | 1.0.0 |
+| **Revision** | 2 |
+| **Report Version** | **v2** (Full Chain Restorability) |
 
 ---
 
-## Timeline
+## Timeline (12 Nodes: 8 BCP + 2 BSP + 2 BF)
 
-### Seq 0: BF - ssh_login_attempt (BFL: 3 HIGH)
+### Phase 1: SSH Brute Force Attack (seq 0-6)
 
-**Time Range**: 2023-01-23 06:00:00 - 2023-01-23 06:00:05 UTC
-
-#### bf_object
+#### Seq 0: BCP (Behavior Coordinate Point)
 
 | Field | Value |
 |-------|-------|
-| bf_id | `bf_0` |
-| action | ssh_login_attempt |
-| bfl | 3 (HIGH) |
-| start_ms | 1674453600000 |
-| end_ms | 1674453605000 |
-| event_count | 6 |
-| is_anomalous | true |
+| Type | **BCP** |
+| Timestamp | 2023-01-23 06:00:00 UTC (1674453600000) |
+| Log ID | 1001 |
+| Event | SSH login failed (user: root, src: 203.0.113.50) |
+
+#### Seq 1: BCP
+
+| Field | Value |
+|-------|-------|
+| Type | **BCP** |
+| Timestamp | 2023-01-23 06:00:01 UTC (1674453601000) |
+| Log ID | 1002 |
+| Event | SSH login failed (user: root, src: 203.0.113.50) |
+
+#### Seq 2: BCP
+
+| Field | Value |
+|-------|-------|
+| Type | **BCP** |
+| Timestamp | 2023-01-23 06:00:02 UTC (1674453602000) |
+| Log ID | 1003 |
+| Event | SSH login failed (user: root, src: 203.0.113.50) |
+
+#### Seq 3: BCP
+
+| Field | Value |
+|-------|-------|
+| Type | **BCP** |
+| Timestamp | 2023-01-23 06:00:03 UTC (1674453603000) |
+| Log ID | 1004 |
+| Event | SSH login failed (user: root, src: 203.0.113.50) |
+
+#### Seq 4: BCP
+
+| Field | Value |
+|-------|-------|
+| Type | **BCP** |
+| Timestamp | 2023-01-23 06:00:04 UTC (1674453604000) |
+| Log ID | 1005 |
+| Event | SSH login failed (user: root, src: 203.0.113.50) |
+
+#### Seq 5: BSP (Behavior Success Point)
+
+| Field | Value |
+|-------|-------|
+| Type | **BSP** |
+| Timestamp | 2023-01-23 06:00:05 UTC (1674453605000) |
+| Log ID | 1006 |
+| Event | SSH login **SUCCESS** (user: root, src: 203.0.113.50) |
+
+#### Seq 6: BF (Behavior Fragment)
+
+| Field | Value |
+|-------|-------|
+| Type | **BF** |
+| BF ID | `bf-a1b2c3d4-e5f6-7890-1234-567890abcdef` |
+| Time Range | 06:00:00 - 06:00:05 UTC (5 seconds) |
+| **BFL** | **3 (HIGH)** |
+
+**BFL Explain**:
+
+| Factor | Value | Weight |
+|--------|-------|--------|
+| action_id | AUTH | - |
+| base_score | 10 | - |
+| attempt_count | 5 | +10 |
+| has_external_ip | true | +20 |
+| time_window_seconds | 5 | +5 |
+| **final_score** | **90** | - |
+
+**MITRE ATT&CK Mapping**:
+
+| Field | Value |
+|-------|-------|
 | bf_attack_family | **CREDENTIAL_ACCESS** |
 | bf_attack_stage | **TA0006** |
-| bf_attack_tags | `["bruteforce", "high_fail", "mitre:T1110.001", "external_source"]` |
+| bf_attack_tags | `bruteforce`, `high_fail`, `mitre:T1110.001`, `external_source` |
 
-#### bf_annotations
+**Bindings** (Chain Restorability):
+
+| Binding | Value |
+|---------|-------|
+| member_bcp_log_ids | [1001, 1002, 1003, 1004, 1005] |
+| derived_bpp_id | `bpp-e5f6-7890-1234-567890abcdef` |
+| anchor_bsp_log_id | 1006 |
+
+**BPP (Behavior Pivot Point)** - Embedded in BF:
 
 | Field | Value |
 |-------|-------|
-| anomaly_tags | `["anomaly:high_attempt_count", "anomaly:external_ip"]` |
-| anomaly_score | 85.0 |
+| BPP ID | `bpp-e5f6-7890-1234-567890abcdef` |
+| Anchor BSP Log ID | 1006 |
+| **PTI** | **0.92** |
+| Evidence Log IDs | [1001, 1002, 1003, 1004, 1005] |
 
-#### bpp_events[0]
+**PTI Explain**:
 
-| Field | Value |
-|-------|-------|
-| bpp_id | `bpp-e5f6-7890-1234-567890abcdef` |
-| transition_type | auth_success |
-| anchor_bsp_id | `evt_006` |
-| **pti** | **0.92** |
-
-**supporting_stats**:
-| Key | Value |
-|-----|-------|
-| fail_count | 5 |
+| Factor | Value |
+|--------|-------|
+| base_score | 0.5 |
+| failed_attempts_before_success | 5 |
 | time_window_seconds | 5 |
 | unique_source_ips | 1 |
 | source_ip | 203.0.113.50 |
 | target_user | root |
-
-**transition_flags**:
-
-| Code | Title | Severity | Rule ID |
-|------|-------|----------|---------|
-| `bpp:pti_high` | High PTI Score | HIGH | pti_threshold_high |
-| `bpp:external_ip` | External IP Source | MEDIUM | external_ip_check |
-
-**evidence_refs**: `["evt_001", "evt_002", "evt_003", "evt_004", "evt_005"]`
-
-#### node_flags
-
-| Code | Title | Severity | Rule ID |
-|------|-------|----------|---------|
-| `bf:bfl_high` | High Risk Behavior Fragment | HIGH | bfl_threshold |
-| `bf:anomaly_detected` | Anomaly Detected | MEDIUM | anomaly_detection |
-
-**evidence_refs**: `["evt_001", "evt_002", "evt_003", "evt_004", "evt_005", "evt_006"]`
+| is_external_ip | true |
+| pti_raw | 0.85 |
+| source_weight | 1.08 |
+| **pti_final** | **0.92** |
 
 ---
 
-### Seq 1: BF - sudo_attempt (BFL: 2 MEDIUM)
+### Phase 2: Privilege Escalation (seq 7-11)
 
-**Time Range**: 2023-01-23 06:01:00 - 2023-01-23 06:01:03 UTC
-
-#### bf_object
+#### Seq 7: BCP
 
 | Field | Value |
 |-------|-------|
-| bf_id | `bf_1` |
-| action | sudo_attempt |
-| bfl | 2 (MEDIUM) |
-| start_ms | 1674453660000 |
-| end_ms | 1674453663000 |
-| event_count | 4 |
-| is_anomalous | false |
+| Type | **BCP** |
+| Timestamp | 2023-01-23 06:01:00 UTC (1674453660000) |
+| Log ID | 2001 |
+| Event | sudo command failed (user: root, cmd: sudo su -) |
+
+#### Seq 8: BCP
+
+| Field | Value |
+|-------|-------|
+| Type | **BCP** |
+| Timestamp | 2023-01-23 06:01:01 UTC (1674453661000) |
+| Log ID | 2002 |
+| Event | sudo command failed (user: root, cmd: sudo su -) |
+
+#### Seq 9: BCP
+
+| Field | Value |
+|-------|-------|
+| Type | **BCP** |
+| Timestamp | 2023-01-23 06:01:02 UTC (1674453662000) |
+| Log ID | 2003 |
+| Event | sudo command failed (user: root, cmd: sudo su -) |
+
+#### Seq 10: BSP
+
+| Field | Value |
+|-------|-------|
+| Type | **BSP** |
+| Timestamp | 2023-01-23 06:01:03 UTC (1674453663000) |
+| Log ID | 2004 |
+| Event | sudo command **SUCCESS** (user: root, cmd: sudo su -) |
+
+#### Seq 11: BF (Behavior Fragment)
+
+| Field | Value |
+|-------|-------|
+| Type | **BF** |
+| BF ID | `bf-b2c3d4e5-f6a7-8901-2345-67890abcdef0` |
+| Time Range | 06:01:00 - 06:01:03 UTC (3 seconds) |
+| **BFL** | **2 (MEDIUM)** |
+
+**BFL Explain**:
+
+| Factor | Value | Weight |
+|--------|-------|--------|
+| action_id | PRIV_ESC | - |
+| base_score | 30 | - |
+| attempt_count | 3 | +5 |
+| is_sudo | true | +20 |
+| **final_score** | **65** | - |
+
+**MITRE ATT&CK Mapping**:
+
+| Field | Value |
+|-------|-------|
 | bf_attack_family | **PRIVILEGE_ESCALATION** |
 | bf_attack_stage | **TA0004** |
-| bf_attack_tags | `["privilege_escalation", "elevation", "mitre:T1548"]` |
+| bf_attack_tags | `privilege_escalation`, `elevation`, `mitre:T1548` |
 
-#### bf_annotations
+**Bindings** (Chain Restorability):
+
+| Binding | Value |
+|---------|-------|
+| member_bcp_log_ids | [2001, 2002, 2003] |
+| derived_bpp_id | `bpp-f6a7-8901-2345-67890abcdef0` |
+| anchor_bsp_log_id | 2004 |
+
+**BPP (Behavior Pivot Point)** - Embedded in BF:
 
 | Field | Value |
 |-------|-------|
-| anomaly_tags | `[]` |
-| anomaly_score | 0.0 |
+| BPP ID | `bpp-f6a7-8901-2345-67890abcdef0` |
+| Anchor BSP Log ID | 2004 |
+| **PTI** | **0.78** |
+| Evidence Log IDs | [2001, 2002, 2003] |
 
-#### bpp_events[0]
+**PTI Explain**:
 
-| Field | Value |
-|-------|-------|
-| bpp_id | `bpp-f6a7-8901-2345-67890abcdef0` |
-| transition_type | priv_esc_success |
-| anchor_bsp_id | `evt_010` |
-| **pti** | **0.78** |
-
-**supporting_stats**:
-| Key | Value |
-|-----|-------|
-| fail_count | 3 |
+| Factor | Value |
+|--------|-------|
+| base_score | 0.4 |
+| failed_attempts_before_success | 3 |
 | time_window_seconds | 3 |
 | is_sudo | true |
 | command | sudo su - |
-
-**transition_flags**:
-
-| Code | Title | Severity | Rule ID |
-|------|-------|----------|---------|
-| `bpp:pti_medium` | Medium PTI Score | MEDIUM | pti_threshold_medium |
-| `bpp:priv_esc` | Privilege Escalation Detected | HIGH | priv_esc_check |
-
-**evidence_refs**: `["evt_007", "evt_008", "evt_009"]`
-
-#### node_flags
-
-| Code | Title | Severity | Rule ID |
-|------|-------|----------|---------|
-| `bf:bfl_medium` | Medium Risk Behavior Fragment | MEDIUM | bfl_threshold |
-
-**evidence_refs**: `["evt_007", "evt_008", "evt_009", "evt_010"]`
+| is_privilege_escalation | true |
+| pti_raw | 0.72 |
+| source_weight | 1.08 |
+| **pti_final** | **0.78** |
 
 ---
 
-## Hotspots
+## Timeline Summary
 
-### Hotspot 1: BFL_ESCALATION
-
-| Field | Value |
-|-------|-------|
-| hotspot_type | BFL_ESCALATION |
-| seq_range | [0, 1] |
-| reason_tags | `["bfl_escalation", "progressive_behavior"]` |
-| evidence_refs | `["bf_0", "bf_1"]` |
-| severity | **HIGH** |
-
-### Hotspot 2: TRANSITION_CLUSTER
-
-| Field | Value |
-|-------|-------|
-| hotspot_type | TRANSITION_CLUSTER |
-| seq_range | [0, 1] |
-| reason_tags | `["transition_cluster", "rapid_transitions"]` |
-| evidence_refs | `["bpp-e5f6-...", "bpp-f6a7-..."]` |
-| severity | **MEDIUM** |
-
----
-
-## Reviews
-
-### ai_review
-
-| Field | Value |
-|-------|-------|
-| decision | escalate |
-| confidence | 0.45 (45%) |
-| summary | Detected SSH brute force attack from external IP followed by successful login and privilege escalation attempt. Escalating due to confirmed post-compromise activity. |
-
-### human_review
-
-| Field | Value |
-|-------|-------|
-| verdict | confirmed_threat |
-| confidence | 95 |
-| summary | Confirmed brute force attack followed by privilege escalation. Attacker gained root access. Recommend immediate incident response. |
-
----
-
-## Audit Trail
-
-| Field | Value |
-|-------|-------|
-| ai_queue_id | `aiq-001-ssh-brute` |
-| human_queue_id | `hq-001-escalated` |
-| reviewers | `["analyst-042"]` |
-
-### Timestamps
-
-| Event | Timestamp |
-|-------|-----------|
-| generated_at | 1706090000000 (2024-01-24 01:06:40 UTC) |
-| ai_reviewed_at | 1706091000000 (2024-01-24 01:23:20 UTC) |
-| human_reviewed_at | 1706095000000 (2024-01-24 02:30:00 UTC) |
+| Seq | Type | Time | Key Info |
+|-----|------|------|----------|
+| 0 | BCP | 06:00:00 | SSH failed (log_id: 1001) |
+| 1 | BCP | 06:00:01 | SSH failed (log_id: 1002) |
+| 2 | BCP | 06:00:02 | SSH failed (log_id: 1003) |
+| 3 | BCP | 06:00:03 | SSH failed (log_id: 1004) |
+| 4 | BCP | 06:00:04 | SSH failed (log_id: 1005) |
+| 5 | **BSP** | 06:00:05 | **SSH SUCCESS** (log_id: 1006) |
+| 6 | **BF** | 06:00:00-05 | **BFL=3, PTI=0.92** (CREDENTIAL_ACCESS) |
+| 7 | BCP | 06:01:00 | sudo failed (log_id: 2001) |
+| 8 | BCP | 06:01:01 | sudo failed (log_id: 2002) |
+| 9 | BCP | 06:01:02 | sudo failed (log_id: 2003) |
+| 10 | **BSP** | 06:01:03 | **sudo SUCCESS** (log_id: 2004) |
+| 11 | **BF** | 06:01:00-03 | **BFL=2, PTI=0.78** (PRIVILEGE_ESCALATION) |
 
 ---
 
 ## MITRE ATT&CK Mapping Summary
 
-| BF | Attack Family | Attack Stage (Tactic) | Technique Tags |
-|----|---------------|----------------------|----------------|
-| bf_0 | CREDENTIAL_ACCESS | TA0006 (Credential Access) | T1110.001 (Brute Force: Password Guessing) |
-| bf_1 | PRIVILEGE_ESCALATION | TA0004 (Privilege Escalation) | T1548 (Abuse Elevation Control Mechanism) |
+| BF | Attack Family | Tactic | Technique |
+|----|---------------|--------|-----------|
+| bf-a1b2... | CREDENTIAL_ACCESS | TA0006 (Credential Access) | T1110.001 (Brute Force: Password Guessing) |
+| bf-b2c3... | PRIVILEGE_ESCALATION | TA0004 (Privilege Escalation) | T1548 (Abuse Elevation Control Mechanism) |
 
 ---
 
-## Report Structure Reference
+## Report Structure Reference (ReportV2)
 
-This report follows the `ReportPayload` structure defined in `internal/contract/report_types.go`:
+This report follows the `ReportV2` structure defined in `internal/contract/report_v2_types.go`:
 
 ```go
-type ReportPayload struct {
-    Meta       ReportMeta      `json:"meta"`
-    Timeline   []ReportNode    `json:"timeline"`   // BF nodes in sequence
-    Hotspots   []ReportHotspot `json:"hotspots"`   // Chain-level aggregations
-    Reviews    ReportReviews   `json:"reviews"`    // AI/Human review summaries
-    AuditTrail ReportAudit     `json:"audit_trail"`
+// KEY SEMANTIC CONSTRAINTS:
+// 1. Chain nodes are ONLY: BCP, BSP, BF
+// 2. BPP is NOT a chain node - it is a BF derivation/explanation
+// 3. PTI only exists in BPP, never in BF
+// 4. BF must have explicit bindings to its BCP/BSP/BPP components
+
+type ReportV2 struct {
+    ReportID      string          `json:"report_id"`
+    ChainID       string          `json:"chain_id"`
+    Revision      int             `json:"revision"`
+    ReportVersion ReportVersion   `json:"report_version"`  // "v2"
+    Timeline      []ReportNodeV2  `json:"timeline"`        // BCP + BSP + BF
+}
+
+type ReportNodeV2 struct {
+    Seq      int           `json:"seq"`
+    Type     ChainNodeType `json:"type"`      // "BCP" | "BSP" | "BF"
+    TStartMs int64         `json:"t_start_ms"`
+    TEndMs   int64         `json:"t_end_ms"`
+    Ref      map[string]interface{} `json:"ref"`
+    BF       *BFViewV2     `json:"bf,omitempty"`  // Only for BF nodes
+}
+
+type BFViewV2 struct {
+    BFID       string                 `json:"bf_id"`
+    BFL        int                    `json:"bfl"`
+    BFLExplain map[string]interface{} `json:"bfl_explain,omitempty"`
+    Bindings   BFBindingsV2           `json:"bindings"`
+    BPPs       []BPPViewV2            `json:"bpps,omitempty"`  // BPP embedded in BF
+}
+
+type BPPViewV2 struct {
+    BPPID          string                 `json:"bpp_id"`
+    AnchorBSPLogID int64                  `json:"anchor_bsp_log_id"`
+    PTI            float64                `json:"pti"`           // PTI belongs to BPP
+    PTIExplain     map[string]interface{} `json:"pti_explain,omitempty"`
+    EvidenceLogIDs []int64                `json:"evidence_log_ids,omitempty"`
 }
 ```
-
-### Key Semantic Constraints
-
-1. **Timeline contains only BF nodes** (not BCP/BSP directly)
-2. **BF contains bf_object with attack mapping** (bf_attack_family, bf_attack_stage, bf_attack_tags)
-3. **BPP is embedded in BF as bpp_events[]** (not a separate timeline node)
-4. **PTI belongs to BPP**, not BF
-5. **Flags are generated by Evaluator** based on policy rules
 
 ---
 
 **Report Generated by**: ChainForge Security Analysis System v2.0.3  
-**Report Schema**: ReportPayload v1 (report_types.go)  
+**Report Schema**: ReportV2 (Full Chain Restorability)  
 **Classification**: CONFIDENTIAL - Internal Use Only
