@@ -1,8 +1,4 @@
 {
-  "report_id": "rpt-sha256-7f8a9b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a",
-  "chain_id": "chain-ent-usr123-win24h-1706086400000",
-  "revision": 2,
-  "report_version": "v2",
   "meta": {
     "chain_id": "chain-ent-usr123-win24h-1706086400000",
     "chain_revision": 2,
@@ -21,222 +17,176 @@
   "timeline": [
     {
       "seq": 0,
-      "type": "BCP",
-      "t_start_ms": 1674453600000,
-      "t_end_ms": 1674453600000,
-      "ref": {
-        "log_id": 1001
-      }
+      "action": "ssh_login_attempt",
+      "bfl": 3,
+      "time_range": {
+        "start_ms": 1674453600000,
+        "end_ms": 1674453605000
+      },
+      "bf_object": {
+        "bf_id": "bf_0",
+        "action": "ssh_login_attempt",
+        "bfl": 3,
+        "start_ms": 1674453600000,
+        "end_ms": 1674453605000,
+        "event_count": 6,
+        "is_anomalous": true,
+        "bf_attack_family": "CREDENTIAL_ACCESS",
+        "bf_attack_stage": "TA0006",
+        "bf_attack_tags": ["bruteforce", "high_fail", "mitre:T1110.001", "external_source"]
+      },
+      "bf_annotations": {
+        "anomaly_tags": ["anomaly:high_attempt_count", "anomaly:external_ip"],
+        "anomaly_score": 85.0
+      },
+      "bpp_events": [
+        {
+          "bpp_id": "bpp-e5f6-7890-1234-567890abcdef",
+          "transition_type": "auth_success",
+          "anchor_bsp_id": "evt_006",
+          "pti": 0.92,
+          "supporting_stats": {
+            "fail_count": 5,
+            "time_window_seconds": 5,
+            "unique_source_ips": 1,
+            "source_ip": "203.0.113.50",
+            "target_user": "root"
+          },
+          "transition_flags": [
+            {
+              "code": "bpp:pti_high",
+              "title": "High PTI Score",
+              "severity": "HIGH",
+              "rule_id": "pti_threshold_high",
+              "rule_version": "1.0.0",
+              "evidence_refs": ["evt_001", "evt_002", "evt_003", "evt_004", "evt_005", "evt_006"]
+            },
+            {
+              "code": "bpp:external_ip",
+              "title": "External IP Source",
+              "severity": "MEDIUM",
+              "rule_id": "external_ip_check",
+              "rule_version": "1.0.0",
+              "evidence_refs": ["evt_001"]
+            }
+          ],
+          "evidence_refs": ["evt_001", "evt_002", "evt_003", "evt_004", "evt_005"]
+        }
+      ],
+      "node_flags": [
+        {
+          "code": "bf:bfl_high",
+          "title": "High Risk Behavior Fragment",
+          "severity": "HIGH",
+          "rule_id": "bfl_threshold",
+          "rule_version": "1.0.0",
+          "evidence_refs": ["bf_0"],
+          "supporting_stats": {
+            "bfl_score": 90,
+            "action_id": "AUTH"
+          }
+        },
+        {
+          "code": "bf:anomaly_detected",
+          "title": "Anomaly Detected",
+          "severity": "MEDIUM",
+          "rule_id": "anomaly_detection",
+          "rule_version": "1.0.0",
+          "evidence_refs": ["bf_0"],
+          "supporting_stats": {
+            "anomaly_score": 85.0
+          }
+        }
+      ],
+      "evidence_refs": ["evt_001", "evt_002", "evt_003", "evt_004", "evt_005", "evt_006"]
     },
     {
       "seq": 1,
-      "type": "BCP",
-      "t_start_ms": 1674453601000,
-      "t_end_ms": 1674453601000,
-      "ref": {
-        "log_id": 1002
-      }
-    },
-    {
-      "seq": 2,
-      "type": "BCP",
-      "t_start_ms": 1674453602000,
-      "t_end_ms": 1674453602000,
-      "ref": {
-        "log_id": 1003
-      }
-    },
-    {
-      "seq": 3,
-      "type": "BCP",
-      "t_start_ms": 1674453603000,
-      "t_end_ms": 1674453603000,
-      "ref": {
-        "log_id": 1004
-      }
-    },
-    {
-      "seq": 4,
-      "type": "BCP",
-      "t_start_ms": 1674453604000,
-      "t_end_ms": 1674453604000,
-      "ref": {
-        "log_id": 1005
-      }
-    },
-    {
-      "seq": 5,
-      "type": "BSP",
-      "t_start_ms": 1674453605000,
-      "t_end_ms": 1674453605000,
-      "ref": {
-        "log_id": 1006
-      }
-    },
-    {
-      "seq": 6,
-      "type": "BF",
-      "t_start_ms": 1674453600000,
-      "t_end_ms": 1674453605000,
-      "ref": {
-        "bf_id": "bf-a1b2c3d4-e5f6-7890-1234-567890abcdef"
+      "action": "sudo_attempt",
+      "bfl": 2,
+      "time_range": {
+        "start_ms": 1674453660000,
+        "end_ms": 1674453663000
       },
-      "bf": {
-        "bf_id": "bf-a1b2c3d4-e5f6-7890-1234-567890abcdef",
-        "action": "ssh_login_attempt",
-        "bfl": 3,
-        "bfl_explain": {
-          "action_id": "AUTH",
-          "base_score": 10,
-          "final_score": 90,
-          "multipliers": [
-            {
-              "feature": "attempt_count",
-              "value": 5,
-              "weight": 10,
-              "type": "multiplicative"
-            },
-            {
-              "feature": "has_external_ip",
-              "value": true,
-              "weight": 20,
-              "type": "additive"
-            },
-            {
-              "feature": "time_window_seconds",
-              "value": 5,
-              "weight": 5,
-              "type": "additive"
-            }
-          ]
-        },
-        "bindings": {
-          "member_bcp_log_ids": [1001, 1002, 1003, 1004, 1005],
-          "derived_bpp_id": "bpp-e5f6-7890-1234-567890abcdef",
-          "anchor_bsp_log_id": 1006
-        },
-        "bpps": [
-          {
-            "bpp_id": "bpp-e5f6-7890-1234-567890abcdef",
-            "anchor_bsp_log_id": 1006,
-            "pti": 0.92,
-            "pti_explain": {
-              "base_score": 0.5,
-              "multipliers": {
-                "failed_attempts_before_success": 5,
-                "time_window_seconds": 5,
-                "unique_source_ips": 1
-              }
-            },
-            "evidence_log_ids": [1001, 1002, 1003, 1004, 1005]
-          }
-        ]
-      }
-    },
-    {
-      "seq": 7,
-      "type": "BCP",
-      "t_start_ms": 1674453660000,
-      "t_end_ms": 1674453660000,
-      "ref": {
-        "log_id": 2001
-      }
-    },
-    {
-      "seq": 8,
-      "type": "BCP",
-      "t_start_ms": 1674453661000,
-      "t_end_ms": 1674453661000,
-      "ref": {
-        "log_id": 2002
-      }
-    },
-    {
-      "seq": 9,
-      "type": "BCP",
-      "t_start_ms": 1674453662000,
-      "t_end_ms": 1674453662000,
-      "ref": {
-        "log_id": 2003
-      }
-    },
-    {
-      "seq": 10,
-      "type": "BSP",
-      "t_start_ms": 1674453663000,
-      "t_end_ms": 1674453663000,
-      "ref": {
-        "log_id": 2004
-      }
-    },
-    {
-      "seq": 11,
-      "type": "BF",
-      "t_start_ms": 1674453660000,
-      "t_end_ms": 1674453663000,
-      "ref": {
-        "bf_id": "bf-b2c3d4e5-f6a7-8901-2345-67890abcdef0"
-      },
-      "bf": {
-        "bf_id": "bf-b2c3d4e5-f6a7-8901-2345-67890abcdef0",
+      "bf_object": {
+        "bf_id": "bf_1",
         "action": "sudo_attempt",
         "bfl": 2,
-        "bfl_explain": {
-          "action_id": "PRIV_ESC",
-          "base_score": 30,
-          "final_score": 65,
-          "multipliers": [
+        "start_ms": 1674453660000,
+        "end_ms": 1674453663000,
+        "event_count": 4,
+        "is_anomalous": false,
+        "bf_attack_family": "PRIVILEGE_ESCALATION",
+        "bf_attack_stage": "TA0004",
+        "bf_attack_tags": ["privilege_escalation", "elevation", "mitre:T1548"]
+      },
+      "bf_annotations": {
+        "anomaly_tags": [],
+        "anomaly_score": 0.0
+      },
+      "bpp_events": [
+        {
+          "bpp_id": "bpp-f6a7-8901-2345-67890abcdef0",
+          "transition_type": "priv_esc_success",
+          "anchor_bsp_id": "evt_010",
+          "pti": 0.78,
+          "supporting_stats": {
+            "fail_count": 3,
+            "time_window_seconds": 3,
+            "is_sudo": true,
+            "command": "sudo su -"
+          },
+          "transition_flags": [
             {
-              "feature": "attempt_count",
-              "value": 3,
-              "weight": 5,
-              "type": "multiplicative"
+              "code": "bpp:pti_medium",
+              "title": "Medium PTI Score",
+              "severity": "MEDIUM",
+              "rule_id": "pti_threshold_medium",
+              "rule_version": "1.0.0",
+              "evidence_refs": ["evt_007", "evt_008", "evt_009", "evt_010"]
             },
             {
-              "feature": "is_sudo",
-              "value": true,
-              "weight": 20,
-              "type": "additive"
+              "code": "bpp:priv_esc",
+              "title": "Privilege Escalation Detected",
+              "severity": "HIGH",
+              "rule_id": "priv_esc_check",
+              "rule_version": "1.0.0",
+              "evidence_refs": ["evt_010"]
             }
-          ]
-        },
-        "bindings": {
-          "member_bcp_log_ids": [2001, 2002, 2003],
-          "derived_bpp_id": "bpp-f6a7-8901-2345-67890abcdef0",
-          "anchor_bsp_log_id": 2004
-        },
-        "bpps": [
-          {
-            "bpp_id": "bpp-f6a7-8901-2345-67890abcdef0",
-            "anchor_bsp_log_id": 2004,
-            "pti": 0.78,
-            "pti_explain": {
-              "base_score": 0.4,
-              "multipliers": {
-                "failed_attempts_before_success": 3,
-                "time_window_seconds": 3,
-                "is_privilege_escalation": true
-              }
-            },
-            "evidence_log_ids": [2001, 2002, 2003]
+          ],
+          "evidence_refs": ["evt_007", "evt_008", "evt_009"]
+        }
+      ],
+      "node_flags": [
+        {
+          "code": "bf:bfl_medium",
+          "title": "Medium Risk Behavior Fragment",
+          "severity": "MEDIUM",
+          "rule_id": "bfl_threshold",
+          "rule_version": "1.0.0",
+          "evidence_refs": ["bf_1"],
+          "supporting_stats": {
+            "bfl_score": 65,
+            "action_id": "PRIV_ESC"
           }
-        ]
-      }
+        }
+      ],
+      "evidence_refs": ["evt_007", "evt_008", "evt_009", "evt_010"]
     }
   ],
   "hotspots": [
     {
       "hotspot_type": "BFL_ESCALATION",
-      "seq_range": [0, 6],
-      "reason_tags": ["high_pti", "external_ip", "brute_force"],
-      "evidence_refs": ["bf-a1b2c3d4-e5f6-7890-1234-567890abcdef"],
+      "seq_range": [0, 1],
+      "reason_tags": ["bfl_escalation", "progressive_behavior"],
+      "evidence_refs": ["bf_0", "bf_1"],
       "severity": "HIGH"
     },
     {
       "hotspot_type": "TRANSITION_CLUSTER",
-      "seq_range": [7, 11],
-      "reason_tags": ["privilege_escalation", "sudo_abuse"],
-      "evidence_refs": ["bf-b2c3d4e5-f6a7-8901-2345-67890abcdef0"],
+      "seq_range": [0, 1],
+      "reason_tags": ["transition_cluster", "rapid_transitions"],
+      "evidence_refs": ["bpp-e5f6-7890-1234-567890abcdef", "bpp-f6a7-8901-2345-67890abcdef0"],
       "severity": "MEDIUM"
     }
   ],
@@ -257,10 +207,9 @@
     "human_queue_id": "hq-001-escalated",
     "reviewers": ["analyst-042"],
     "timestamps": {
-      "chain_created_ms": 1706086400000,
-      "report_generated_ms": 1706090000000,
-      "ai_reviewed_ms": 1706091000000,
-      "human_reviewed_ms": 1706095000000
+      "generated_at": 1706090000000,
+      "ai_reviewed_at": 1706091000000,
+      "human_reviewed_at": 1706095000000
     }
   }
 }

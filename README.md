@@ -98,5 +98,6 @@ Contact the Structural Controller at: businessformadison0818@gmail.com
 
 | Version | Date | Description |
 |---------|------|-------------|
+| v1.1.1 | 2025-01-24 | Updated structured reports with latest versions |
 | v1.1.0 | 2025-01-24 | Reorganized repository structure: moved patent documents to `patent-documents/` folder, added `structured-reports/` folder with security investigation reports |
 | v1.0.0 | 2025-08-01 | Initial release with patent documentation |
