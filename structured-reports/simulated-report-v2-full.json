@@ -6,60 +6,6 @@
   "timeline": [
     {
       "seq": 0,
-      "type": "BCP",
-      "t_start_ms": 1674453600000,
-      "t_end_ms": 1674453600000,
-      "ref": {
-        "log_id": 1001
-      }
-    },
-    {
-      "seq": 1,
-      "type": "BCP",
-      "t_start_ms": 1674453601000,
-      "t_end_ms": 1674453601000,
-      "ref": {
-        "log_id": 1002
-      }
-    },
-    {
-      "seq": 2,
-      "type": "BCP",
-      "t_start_ms": 1674453602000,
-      "t_end_ms": 1674453602000,
-      "ref": {
-        "log_id": 1003
-      }
-    },
-    {
-      "seq": 3,
-      "type": "BCP",
-      "t_start_ms": 1674453603000,
-      "t_end_ms": 1674453603000,
-      "ref": {
-        "log_id": 1004
-      }
-    },
-    {
-      "seq": 4,
-      "type": "BCP",
-      "t_start_ms": 1674453604000,
-      "t_end_ms": 1674453604000,
-      "ref": {
-        "log_id": 1005
-      }
-    },
-    {
-      "seq": 5,
-      "type": "BSP",
-      "t_start_ms": 1674453605000,
-      "t_end_ms": 1674453605000,
-      "ref": {
-        "log_id": 1006
-      }
-    },
-    {
-      "seq": 6,
       "type": "BF",
       "t_start_ms": 1674453600000,
       "t_end_ms": 1674453605000,
@@ -73,25 +19,93 @@
           "action_id": "AUTH",
           "base_score": 10,
           "attempt_count": 5,
-          "attempt_weight": 10,
           "has_external_ip": true,
-          "external_ip_weight": 20,
           "time_window_seconds": 5,
-          "time_window_weight": 5,
-          "final_score": 90,
-          "bf_attack_family": "CREDENTIAL_ACCESS",
-          "bf_attack_stage": "TA0006",
-          "bf_attack_tags": ["bruteforce", "high_fail", "mitre:T1110.001", "external_source"]
+          "final_score": 90
+        },
+        "attack_family": "CREDENTIAL_ACCESS",
+        "attack_stage": "TA0006",
+        "attack_tags": ["bruteforce", "high_fail", "mitre:T1110.001", "external_source"],
+        "attack_explain": {
+          "technique_id": "T1110.001",
+          "technique_name": "Brute Force: Password Guessing",
+          "tactic_id": "TA0006",
+          "tactic_name": "Credential Access",
+          "confidence": 0.95,
+          "matched_indicators": ["multiple_failed_auth", "same_target_user", "external_ip"]
         },
         "bindings": {
           "member_bcp_log_ids": [1001, 1002, 1003, 1004, 1005],
           "derived_bpp_id": "bpp-e5f6-7890-1234-567890abcdef",
           "anchor_bsp_log_id": 1006
         },
+        "bcps": [
+          {
+            "log_id": 1001,
+            "event_type": "ssh_login",
+            "t_ms": 1674453600000,
+            "src_ip": "203.0.113.50",
+            "dst_ip": "10.0.0.5",
+            "user_name": "root",
+            "action": "login",
+            "result": "failure"
+          },
+          {
+            "log_id": 1002,
+            "event_type": "ssh_login",
+            "t_ms": 1674453601000,
+            "src_ip": "203.0.113.50",
+            "dst_ip": "10.0.0.5",
+            "user_name": "root",
+            "action": "login",
+            "result": "failure"
+          },
+          {
+            "log_id": 1003,
+            "event_type": "ssh_login",
+            "t_ms": 1674453602000,
+            "src_ip": "203.0.113.50",
+            "dst_ip": "10.0.0.5",
+            "user_name": "root",
+            "action": "login",
+            "result": "failure"
+          },
+          {
+            "log_id": 1004,
+            "event_type": "ssh_login",
+            "t_ms": 1674453603000,
+            "src_ip": "203.0.113.50",
+            "dst_ip": "10.0.0.5",
+            "user_name": "root",
+            "action": "login",
+            "result": "failure"
+          },
+          {
+            "log_id": 1005,
+            "event_type": "ssh_login",
+            "t_ms": 1674453604000,
+            "src_ip": "203.0.113.50",
+            "dst_ip": "10.0.0.5",
+            "user_name": "root",
+            "action": "login",
+            "result": "failure"
+          }
+        ],
         "bpps": [
           {
             "bpp_id": "bpp-e5f6-7890-1234-567890abcdef",
             "anchor_bsp_log_id": 1006,
+            "anchor_bsp": {
+              "log_id": 1006,
+              "event_type": "ssh_login",
+              "bsp_type": "auth_success",
+              "t_ms": 1674453605000,
+              "src_ip": "203.0.113.50",
+              "dst_ip": "10.0.0.5",
+              "user_name": "root",
+              "action": "login",
+              "result": "success"
+            },
             "pti": 0.92,
             "pti_explain": {
               "base_score": 0.5,
@@ -111,43 +125,7 @@
       }
     },
     {
-      "seq": 7,
-      "type": "BCP",
-      "t_start_ms": 1674453660000,
-      "t_end_ms": 1674453660000,
-      "ref": {
-        "log_id": 2001
-      }
-    },
-    {
-      "seq": 8,
-      "type": "BCP",
-      "t_start_ms": 1674453661000,
-      "t_end_ms": 1674453661000,
-      "ref": {
-        "log_id": 2002
-      }
-    },
-    {
-      "seq": 9,
-      "type": "BCP",
-      "t_start_ms": 1674453662000,
-      "t_end_ms": 1674453662000,
-      "ref": {
-        "log_id": 2003
-      }
-    },
-    {
-      "seq": 10,
-      "type": "BSP",
-      "t_start_ms": 1674453663000,
-      "t_end_ms": 1674453663000,
-      "ref": {
-        "log_id": 2004
-      }
-    },
-    {
-      "seq": 11,
+      "seq": 1,
       "type": "BF",
       "t_start_ms": 1674453660000,
       "t_end_ms": 1674453663000,
@@ -161,23 +139,72 @@
           "action_id": "PRIV_ESC",
           "base_score": 30,
           "attempt_count": 3,
-          "attempt_weight": 5,
           "is_sudo": true,
-          "sudo_weight": 20,
-          "final_score": 65,
-          "bf_attack_family": "PRIVILEGE_ESCALATION",
-          "bf_attack_stage": "TA0004",
-          "bf_attack_tags": ["privilege_escalation", "elevation", "mitre:T1548"]
+          "final_score": 65
+        },
+        "attack_family": "PRIVILEGE_ESCALATION",
+        "attack_stage": "TA0004",
+        "attack_tags": ["privilege_escalation", "elevation", "mitre:T1548"],
+        "attack_explain": {
+          "technique_id": "T1548",
+          "technique_name": "Abuse Elevation Control Mechanism",
+          "tactic_id": "TA0004",
+          "tactic_name": "Privilege Escalation",
+          "confidence": 0.88,
+          "matched_indicators": ["sudo_abuse", "failed_attempts", "successful_elevation"]
         },
         "bindings": {
           "member_bcp_log_ids": [2001, 2002, 2003],
           "derived_bpp_id": "bpp-f6a7-8901-2345-67890abcdef0",
           "anchor_bsp_log_id": 2004
         },
+        "bcps": [
+          {
+            "log_id": 2001,
+            "event_type": "sudo",
+            "t_ms": 1674453660000,
+            "src_ip": "10.0.0.5",
+            "dst_ip": "10.0.0.5",
+            "user_name": "root",
+            "action": "sudo_exec",
+            "result": "failure"
+          },
+          {
+            "log_id": 2002,
+            "event_type": "sudo",
+            "t_ms": 1674453661000,
+            "src_ip": "10.0.0.5",
+            "dst_ip": "10.0.0.5",
+            "user_name": "root",
+            "action": "sudo_exec",
+            "result": "failure"
+          },
+          {
+            "log_id": 2003,
+            "event_type": "sudo",
+            "t_ms": 1674453662000,
+            "src_ip": "10.0.0.5",
+            "dst_ip": "10.0.0.5",
+            "user_name": "root",
+            "action": "sudo_exec",
+            "result": "failure"
+          }
+        ],
         "bpps": [
           {
             "bpp_id": "bpp-f6a7-8901-2345-67890abcdef0",
             "anchor_bsp_log_id": 2004,
+            "anchor_bsp": {
+              "log_id": 2004,
+              "event_type": "sudo",
+              "bsp_type": "privilege_success",
+              "t_ms": 1674453663000,
+              "src_ip": "10.0.0.5",
+              "dst_ip": "10.0.0.5",
+              "user_name": "root",
+              "action": "sudo_exec",
+              "result": "success"
+            },
             "pti": 0.78,
             "pti_explain": {
               "base_score": 0.4,
